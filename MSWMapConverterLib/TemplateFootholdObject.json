@@ -1,0 +1,65 @@
+{
+	"entryId": "|guid|",
+	"entryPath": "/maps/|mapIdentifier|/MigratedFootholds/|uniqueName|",
+	"contents": [
+		{
+			"name": "|uniqueName|",
+			"path": "/maps/|mapIdentifier|/MigratedFootholds/|uniqueName|",
+			"nameEditable": true,
+			"enable": true,
+			"visible": true,
+			"displayOrder": 0,
+			"pathConstraints": "////",
+			"revision": 1,
+			"origin": {
+				"type": "Model",
+				"entry_id": "Foothold",
+				"sub_entity_id": null
+			},
+			"modelId": "foothold",
+			"@components": [
+				{
+					"@type": "MOD.Core.TransformComponent",
+					"Position": {
+						"x": 0.0,
+						"y": 0.0,
+						"z": 0.0
+					},
+					"QuaternionRotation": {
+						"x": 0.0,
+						"y": 0.0,
+						"z": 0.0,
+						"w": 1.0
+					},
+					"Scale": {
+						"x": 1.0,
+						"y": 1.0,
+						"z": 1.0
+					},
+					"Enable": true
+				},
+				{
+					"@type": "MOD.Core.SpriteRendererComponent",
+					"ActionSheet": {},
+					"EndFrameIndex": 2147483647,
+					"RenderSetting": 0,
+					"SortingLayer": "MapLayer0",
+					"SpriteRUID": "84f8493b401449899bea34657ea6fc0a",
+					"StartFrameIndex": 0,
+					"Enable": false
+				},
+				{
+					"@type": "MOD.Core.CustomFootholdComponent",
+					"edgeLists": |edgelists|,
+					"Enable": true
+				}
+			],
+			"@version": 1
+		}
+	],
+	"miscs": [
+		"MOD.Core.TransformComponent",
+		"MOD.Core.SpriteRendererComponent",
+		"MOD.Core.CustomFootholdComponent"
+	]
+}

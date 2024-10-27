@@ -1,0 +1,61 @@
+{
+	"entryId": "|guid|",
+	"entryPath": "/maps/|mapIdentifier|/MigratedMap/|uniqueName|",
+	"contents": [
+		{
+			"name": "|uniqueName|",
+			"path": "/maps/|mapIdentifier|/MigratedMap/|uniqueName|",
+			"nameEditable": true,
+			"enable": true,
+			"visible": true,
+			"displayOrder": 0,
+			"pathConstraints": "////",
+			"revision": 1,
+			"modelId": null,
+			"@components": [
+				{
+					"@type": "MOD.Core.SpriteRendererComponent",
+					"ActionSheet": {},
+					"EndFrameIndex": 2147483647,
+					"RenderSetting": 0,
+					"SpriteRUID": "|ruid|",
+					"SortingLayer": "MapLayer0",
+					"StartFrameIndex": 0,
+					"OrderInLayer": 2,
+					"Enable": true
+				},
+				{
+					"@type": "MOD.Core.TransformComponent",
+					"Rotation": {
+						"x": 0.0,
+						"y": 0.0,
+						"z": 0.0
+					},
+					"Position": {
+						"x": |mswX|,
+						"y": |mswY|,
+						"z": 0.0
+					},
+					"QuaternionRotation": {
+						"x": 0.0,
+						"y": 0.0,
+						"z": 0.0,
+						"w": 1.0
+					},
+					"Scale": {
+						"x": 1.0,
+						"y": 1.0,
+						"z": 1.0
+					},
+					"ZRotation": 0.0,
+					"Enable": true
+				}
+			],
+			"@version": 1
+		}
+	],
+	"miscs": [
+		"MOD.Core.SpriteRendererComponent",
+		"MOD.Core.TransformComponent"
+	]
+}

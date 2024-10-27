@@ -1,0 +1,223 @@
+[
+	{
+		"entryId": "|guid1|",
+		"entryPath": "/maps/|mapIdentifier|/MigratedRopeLadders/|uniqueName|",
+		"contents": [
+			{
+				"name": "|uniqueName|",
+				"path": "/maps/|mapIdentifier|/MigratedRopeLadders/|uniqueName|",
+				"nameEditable": true,
+				"enable": true,
+				"visible": true,
+				"displayOrder": 6,
+				"pathConstraints": "///",
+				"revision": 1,
+				"origin": {
+					"type": "Model",
+					"entry_id": "Rope",
+					"sub_entity_id": null
+				},
+				"modelId": "rope",
+				"@components": [
+					{
+						"@type": "MOD.Core.TransformComponent",
+						"Position": {
+							"x": |mswX|,
+							"y": |mswY|,
+							"z": 999.999
+						},
+						"QuaternionRotation": {
+							"x": 0.0,
+							"y": 0.0,
+							"z": 0.0,
+							"w": 1.0
+						},
+						"Scale": {
+							"x": |mswSX|,
+							"y": |mswSY|,
+							"z": 1.0
+						},
+						"Enable": true
+					},
+					{
+						"@type": "MOD.Core.ClimbableSpriteRendererComponent",
+						"BodySpriteFlipInfo": {
+							"x": 1.0,
+							"y": 1.0
+						},
+						"BodySpriteLocalPos": {
+							"x": 0.0,
+							"y": 0.02
+						},
+						"NeedGizmo": true,
+						"OriginOffset": {
+							"x": 0.085,
+							"y": 0.17
+						},
+						"OriginRectSize": {
+							"x": 0.17,
+							"y": 0.3
+						},
+						"RenderSetting": 0,
+						"SortingLayer": "MapLayer0",
+						"SpriteRUID": "15f9b71c34ef42d69c5081f1e788291f",
+						"SpriteRUIDHead": "",
+						"SpriteRUIDTail": "",
+						"Enable": false
+					},
+					{
+						"@type": "MOD.Core.ClimbableComponent",
+						"BoxOffset": {
+							"x": 0.085,
+							"y": 0.17
+						},
+						"BoxSize": {
+							"x": 0.5,
+							"y": 0.895
+						},
+						"ClimbableAnimationType": |ca|,
+						"Enable": true
+					}
+				],
+				"@version": 1
+			}
+		],
+		"miscs": [
+			"MOD.Core.TransformComponent",
+			"MOD.Core.ClimbableSpriteRendererComponent",
+			"MOD.Core.ClimbableComponent"
+		]
+	},
+	{
+		"entryId": "|guid2|",
+		"entryPath": "/maps/|mapIdentifier|/MigratedRopeLadders/|uniqueName|/head",
+		"contents": [
+			{
+				"name": "head",
+				"path": "/maps/|mapIdentifier|/MigratedRopeLadders/|uniqueName|/head",
+				"nameEditable": false,
+				"enable": true,
+				"visible": true,
+				"displayOrder": 0,
+				"pathConstraints": "////",
+				"revision": 1,
+				"modelId": null,
+				"@components": [
+					{
+						"@type": "MOD.Core.TransformComponent",
+						"Position": {
+							"x": 0.0,
+							"y": 0.41,
+							"z": 0.0
+						},
+						"QuaternionRotation": {
+							"x": 0.0,
+							"y": 0.0,
+							"z": 0.0,
+							"w": 1.0
+						},
+						"Enable": true
+					},
+					{
+						"@type": "MOD.Core.ClimbableSpriteRendererComponent",
+						"BodySpriteFlipInfo": {
+							"x": 0.0,
+							"y": 0.0
+						},
+						"BodySpriteLocalPos": {
+							"x": 0.0,
+							"y": 0.0
+						},
+						"NeedGizmo": false,
+						"OrderInLayer": 2,
+						"OriginOffset": {
+							"x": 0.0800000057,
+							"y": 0.114999995
+						},
+						"OriginRectSize": {
+							"x": 0.18,
+							"y": 0.41
+						},
+						"RenderSetting": 0,
+						"SortingLayer": "MapLayer0",
+						"SpriteRUID": "09c406ae168f4f4fb7fb2393c4bd752c",
+						"SpriteRUIDHead": "",
+						"SpriteRUIDTail": "",
+						"Enable": false
+					}
+				],
+				"@version": 1
+			}
+		],
+		"miscs": [
+			"MOD.Core.TransformComponent",
+			"MOD.Core.ClimbableSpriteRendererComponent"
+		]
+	},
+	{
+		"entryId": "|guid3|",
+		"entryPath": "/maps/|mapIdentifier|/MigratedRopeLadders/|uniqueName|/tail",
+		"contents": [
+			{
+				"name": "tail",
+				"path": "/maps/|mapIdentifier|/MigratedRopeLadders/|uniqueName|/tail",
+				"nameEditable": false,
+				"enable": true,
+				"visible": true,
+				"displayOrder": 1,
+				"pathConstraints": "////",
+				"revision": 1,
+				"modelId": null,
+				"@components": [
+					{
+						"@type": "MOD.Core.TransformComponent",
+						"Position": {
+							"x": 0.0,
+							"y": -0.3,
+							"z": 0.0
+						},
+						"QuaternionRotation": {
+							"x": 0.0,
+							"y": 0.0,
+							"z": 0.0,
+							"w": 1.0
+						},
+						"Enable": true
+					},
+					{
+						"@type": "MOD.Core.ClimbableSpriteRendererComponent",
+						"BodySpriteFlipInfo": {
+							"x": 0.0,
+							"y": 0.0
+						},
+						"BodySpriteLocalPos": {
+							"x": 0.0,
+							"y": 0.0
+						},
+						"NeedGizmo": false,
+						"OrderInLayer": 2,
+						"OriginOffset": {
+							"x": 0.085,
+							"y": 0.124999993
+						},
+						"OriginRectSize": {
+							"x": 0.17,
+							"y": 0.39
+						},
+						"RenderSetting": 0,
+						"SortingLayer": "MapLayer0",
+						"SpriteRUID": "072c87a7be3643379da2a91ce943b543",
+						"SpriteRUIDHead": "",
+						"SpriteRUIDTail": "",
+						"Enable": false
+					}
+				],
+				"@version": 1
+			}
+		],
+		"miscs": [
+			"MOD.Core.TransformComponent",
+			"MOD.Core.ClimbableSpriteRendererComponent"
+		]
+	}
+]

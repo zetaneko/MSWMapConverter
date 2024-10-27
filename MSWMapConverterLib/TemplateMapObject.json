@@ -1,0 +1,4772 @@
+{
+	"uniqueIdentifier": "|guid|",
+	"bundleIdentifier": "460f387ca1af4ce5b0dc1d4164e1627c",
+	"category": "map",
+	"entryId": "|uniqueid|",
+	"contents": [
+		{
+			"entryId": "bd44e3df-c14c-4770-93d4-7eb030951f04",
+			"entryPath": "/maps/|uniqueid|",
+			"contents": [
+				{
+				    "name": "|name|",
+				    "path": "/maps/|uniqueid|",
+				    "nameEditable": false,
+				    "enable": true,
+				    "visible": true,
+				    "displayOrder": 0,
+				    "pathConstraints": "//",
+				    "revision": 1,
+				    "modelId": null,
+				    "@components": [
+				        {
+				            "@type": "MOD.Core.MapComponent",
+				            "IsInstanceMap": false,
+				            "LeftBottom": {
+				                "x": -16.2727146,
+				                "y": 10.0
+				            },
+				            "RightTop": {
+				                "x": 12.00869,
+				                "y": -10.7666149
+				            },
+				            "TileMapMode": 0,
+				            "UseCustomBound": false,
+				            "Enable": true
+				        },
+				        {
+				            "@type": "MOD.Core.FootholdComponent",
+				            "FootholdsByLayer": {
+				                "1": [
+				                    {
+				                        "Length": 0.25,
+				                        "NextFootholdId": 4,
+				                        "PreviousFootholdId": 0,
+				                        "groupID": 1,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "be3f4a8b-9121-4ba3-a67c-c64552b1f263",
+				                        "Id": 1,
+				                        "StartPoint": {
+				                            "x": -3.09,
+				                            "y": 1.2
+				                        },
+				                        "EndPoint": {
+				                            "x": -3.09,
+				                            "y": 1.45
+				                        },
+				                        "Variance": {
+				                            "x": 0.0,
+				                            "y": 1.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 1.35,
+				                        "NextFootholdId": 5,
+				                        "PreviousFootholdId": 0,
+				                        "groupID": 2,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "be3f4a8b-9121-4ba3-a67c-c64552b1f263",
+				                        "Id": 2,
+				                        "StartPoint": {
+				                            "x": -1.95,
+				                            "y": -1.71
+				                        },
+				                        "EndPoint": {
+				                            "x": -0.6,
+				                            "y": -1.71
+				                        },
+				                        "Variance": {
+				                            "x": 1.0,
+				                            "y": 0.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.209999919,
+				                        "NextFootholdId": 22,
+				                        "PreviousFootholdId": 0,
+				                        "groupID": 3,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "be3f4a8b-9121-4ba3-a67c-c64552b1f263",
+				                        "Id": 3,
+				                        "StartPoint": {
+				                            "x": -1.15,
+				                            "y": -1.68
+				                        },
+				                        "EndPoint": {
+				                            "x": -1.15,
+				                            "y": -1.47
+				                        },
+				                        "Variance": {
+				                            "x": 0.0,
+				                            "y": 1.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.78,
+				                        "NextFootholdId": 15,
+				                        "PreviousFootholdId": 1,
+				                        "groupID": 1,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "be3f4a8b-9121-4ba3-a67c-c64552b1f263",
+				                        "Id": 4,
+				                        "StartPoint": {
+				                            "x": -3.09,
+				                            "y": 1.45
+				                        },
+				                        "EndPoint": {
+				                            "x": -2.31,
+				                            "y": 1.45
+				                        },
+				                        "Variance": {
+				                            "x": 1.0,
+				                            "y": 0.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.25,
+				                        "NextFootholdId": 6,
+				                        "PreviousFootholdId": 2,
+				                        "groupID": 2,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "be3f4a8b-9121-4ba3-a67c-c64552b1f263",
+				                        "Id": 5,
+				                        "StartPoint": {
+				                            "x": -0.6,
+				                            "y": -1.71
+				                        },
+				                        "EndPoint": {
+				                            "x": -0.6,
+				                            "y": -1.96
+				                        },
+				                        "Variance": {
+				                            "x": 0.0,
+				                            "y": -1.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.24000001,
+				                        "NextFootholdId": 7,
+				                        "PreviousFootholdId": 5,
+				                        "groupID": 2,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "be3f4a8b-9121-4ba3-a67c-c64552b1f263",
+				                        "Id": 6,
+				                        "StartPoint": {
+				                            "x": -0.6,
+				                            "y": -1.96
+				                        },
+				                        "EndPoint": {
+				                            "x": -0.36,
+				                            "y": -1.96
+				                        },
+				                        "Variance": {
+				                            "x": 1.0,
+				                            "y": 0.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.24000001,
+				                        "NextFootholdId": 8,
+				                        "PreviousFootholdId": 6,
+				                        "groupID": 2,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "be3f4a8b-9121-4ba3-a67c-c64552b1f263",
+				                        "Id": 7,
+				                        "StartPoint": {
+				                            "x": -0.36,
+				                            "y": -1.96
+				                        },
+				                        "EndPoint": {
+				                            "x": -0.36,
+				                            "y": -2.2
+				                        },
+				                        "Variance": {
+				                            "x": 0.0,
+				                            "y": -1.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.24000001,
+				                        "NextFootholdId": 9,
+				                        "PreviousFootholdId": 7,
+				                        "groupID": 2,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "be3f4a8b-9121-4ba3-a67c-c64552b1f263",
+				                        "Id": 8,
+				                        "StartPoint": {
+				                            "x": -0.36,
+				                            "y": -2.2
+				                        },
+				                        "EndPoint": {
+				                            "x": -0.12,
+				                            "y": -2.2
+				                        },
+				                        "Variance": {
+				                            "x": 1.0,
+				                            "y": 0.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.24000001,
+				                        "NextFootholdId": 10,
+				                        "PreviousFootholdId": 8,
+				                        "groupID": 2,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "be3f4a8b-9121-4ba3-a67c-c64552b1f263",
+				                        "Id": 9,
+				                        "StartPoint": {
+				                            "x": -0.12,
+				                            "y": -2.2
+				                        },
+				                        "EndPoint": {
+				                            "x": -0.12,
+				                            "y": -2.44
+				                        },
+				                        "Variance": {
+				                            "x": 0.0,
+				                            "y": -1.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.229999989,
+				                        "NextFootholdId": 11,
+				                        "PreviousFootholdId": 9,
+				                        "groupID": 2,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "be3f4a8b-9121-4ba3-a67c-c64552b1f263",
+				                        "Id": 10,
+				                        "StartPoint": {
+				                            "x": -0.12,
+				                            "y": -2.44
+				                        },
+				                        "EndPoint": {
+				                            "x": 0.11,
+				                            "y": -2.44
+				                        },
+				                        "Variance": {
+				                            "x": 1.0,
+				                            "y": 0.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.24000001,
+				                        "NextFootholdId": 12,
+				                        "PreviousFootholdId": 10,
+				                        "groupID": 2,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "be3f4a8b-9121-4ba3-a67c-c64552b1f263",
+				                        "Id": 11,
+				                        "StartPoint": {
+				                            "x": 0.11,
+				                            "y": -2.44
+				                        },
+				                        "EndPoint": {
+				                            "x": 0.11,
+				                            "y": -2.68
+				                        },
+				                        "Variance": {
+				                            "x": 0.0,
+				                            "y": -1.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.24,
+				                        "NextFootholdId": 13,
+				                        "PreviousFootholdId": 11,
+				                        "groupID": 2,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "be3f4a8b-9121-4ba3-a67c-c64552b1f263",
+				                        "Id": 12,
+				                        "StartPoint": {
+				                            "x": 0.11,
+				                            "y": -2.68
+				                        },
+				                        "EndPoint": {
+				                            "x": 0.35,
+				                            "y": -2.68
+				                        },
+				                        "Variance": {
+				                            "x": 1.0,
+				                            "y": 0.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.24000001,
+				                        "NextFootholdId": 14,
+				                        "PreviousFootholdId": 12,
+				                        "groupID": 2,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "be3f4a8b-9121-4ba3-a67c-c64552b1f263",
+				                        "Id": 13,
+				                        "StartPoint": {
+				                            "x": 0.35,
+				                            "y": -2.68
+				                        },
+				                        "EndPoint": {
+				                            "x": 0.35,
+				                            "y": -2.92
+				                        },
+				                        "Variance": {
+				                            "x": 0.0,
+				                            "y": -1.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.22,
+				                        "NextFootholdId": 16,
+				                        "PreviousFootholdId": 13,
+				                        "groupID": 2,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "be3f4a8b-9121-4ba3-a67c-c64552b1f263",
+				                        "Id": 14,
+				                        "StartPoint": {
+				                            "x": 0.35,
+				                            "y": -2.92
+				                        },
+				                        "EndPoint": {
+				                            "x": 0.57,
+				                            "y": -2.92
+				                        },
+				                        "Variance": {
+				                            "x": 1.0,
+				                            "y": 0.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.51,
+				                        "NextFootholdId": 28,
+				                        "PreviousFootholdId": 4,
+				                        "groupID": 1,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "be3f4a8b-9121-4ba3-a67c-c64552b1f263",
+				                        "Id": 15,
+				                        "StartPoint": {
+				                            "x": -2.31,
+				                            "y": 1.45
+				                        },
+				                        "EndPoint": {
+				                            "x": -1.8,
+				                            "y": 1.45
+				                        },
+				                        "Variance": {
+				                            "x": 1.0,
+				                            "y": 0.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.24000001,
+				                        "NextFootholdId": 17,
+				                        "PreviousFootholdId": 14,
+				                        "groupID": 2,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "be3f4a8b-9121-4ba3-a67c-c64552b1f263",
+				                        "Id": 16,
+				                        "StartPoint": {
+				                            "x": 0.57,
+				                            "y": -2.92
+				                        },
+				                        "EndPoint": {
+				                            "x": 0.57,
+				                            "y": -3.16
+				                        },
+				                        "Variance": {
+				                            "x": 0.0,
+				                            "y": -1.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.24000001,
+				                        "NextFootholdId": 18,
+				                        "PreviousFootholdId": 16,
+				                        "groupID": 2,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "be3f4a8b-9121-4ba3-a67c-c64552b1f263",
+				                        "Id": 17,
+				                        "StartPoint": {
+				                            "x": 0.57,
+				                            "y": -3.16
+				                        },
+				                        "EndPoint": {
+				                            "x": 0.81,
+				                            "y": -3.16
+				                        },
+				                        "Variance": {
+				                            "x": 1.0,
+				                            "y": 0.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.24000001,
+				                        "NextFootholdId": 19,
+				                        "PreviousFootholdId": 17,
+				                        "groupID": 2,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "be3f4a8b-9121-4ba3-a67c-c64552b1f263",
+				                        "Id": 18,
+				                        "StartPoint": {
+				                            "x": 0.81,
+				                            "y": -3.16
+				                        },
+				                        "EndPoint": {
+				                            "x": 0.81,
+				                            "y": -3.4
+				                        },
+				                        "Variance": {
+				                            "x": 0.0,
+				                            "y": -1.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.209999979,
+				                        "NextFootholdId": 20,
+				                        "PreviousFootholdId": 18,
+				                        "groupID": 2,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "be3f4a8b-9121-4ba3-a67c-c64552b1f263",
+				                        "Id": 19,
+				                        "StartPoint": {
+				                            "x": 0.81,
+				                            "y": -3.4
+				                        },
+				                        "EndPoint": {
+				                            "x": 1.02,
+				                            "y": -3.4
+				                        },
+				                        "Variance": {
+				                            "x": 1.0,
+				                            "y": 0.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.179999828,
+				                        "NextFootholdId": 0,
+				                        "PreviousFootholdId": 19,
+				                        "groupID": 2,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "be3f4a8b-9121-4ba3-a67c-c64552b1f263",
+				                        "Id": 20,
+				                        "StartPoint": {
+				                            "x": 1.02,
+				                            "y": -3.4
+				                        },
+				                        "EndPoint": {
+				                            "x": 1.02,
+				                            "y": -3.58
+				                        },
+				                        "Variance": {
+				                            "x": 0.0,
+				                            "y": -1.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 1.97,
+				                        "NextFootholdId": 0,
+				                        "PreviousFootholdId": 27,
+				                        "groupID": 3,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "be3f4a8b-9121-4ba3-a67c-c64552b1f263",
+				                        "Id": 21,
+				                        "StartPoint": {
+				                            "x": 2.21,
+				                            "y": -0.94
+				                        },
+				                        "EndPoint": {
+				                            "x": 2.21,
+				                            "y": 1.03
+				                        },
+				                        "Variance": {
+				                            "x": 0.0,
+				                            "y": 1.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.459999979,
+				                        "NextFootholdId": 23,
+				                        "PreviousFootholdId": 3,
+				                        "groupID": 3,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "be3f4a8b-9121-4ba3-a67c-c64552b1f263",
+				                        "Id": 22,
+				                        "StartPoint": {
+				                            "x": -1.15,
+				                            "y": -1.47
+				                        },
+				                        "EndPoint": {
+				                            "x": -0.69,
+				                            "y": -1.47
+				                        },
+				                        "Variance": {
+				                            "x": 1.0,
+				                            "y": 0.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.230000019,
+				                        "NextFootholdId": 25,
+				                        "PreviousFootholdId": 22,
+				                        "groupID": 3,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "be3f4a8b-9121-4ba3-a67c-c64552b1f263",
+				                        "Id": 23,
+				                        "StartPoint": {
+				                            "x": -0.69,
+				                            "y": -1.47
+				                        },
+				                        "EndPoint": {
+				                            "x": -0.69,
+				                            "y": -1.24
+				                        },
+				                        "Variance": {
+				                            "x": 0.0,
+				                            "y": 1.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.9,
+				                        "NextFootholdId": 29,
+				                        "PreviousFootholdId": 28,
+				                        "groupID": 1,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "be3f4a8b-9121-4ba3-a67c-c64552b1f263",
+				                        "Id": 24,
+				                        "StartPoint": {
+				                            "x": -0.9,
+				                            "y": 1.45
+				                        },
+				                        "EndPoint": {
+				                            "x": 0.0,
+				                            "y": 1.45
+				                        },
+				                        "Variance": {
+				                            "x": 1.0,
+				                            "y": 0.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.42,
+				                        "NextFootholdId": 26,
+				                        "PreviousFootholdId": 23,
+				                        "groupID": 3,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "be3f4a8b-9121-4ba3-a67c-c64552b1f263",
+				                        "Id": 25,
+				                        "StartPoint": {
+				                            "x": -0.69,
+				                            "y": -1.24
+				                        },
+				                        "EndPoint": {
+				                            "x": -0.27,
+				                            "y": -1.24
+				                        },
+				                        "Variance": {
+				                            "x": 1.0,
+				                            "y": 0.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.3,
+				                        "NextFootholdId": 27,
+				                        "PreviousFootholdId": 25,
+				                        "groupID": 3,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "be3f4a8b-9121-4ba3-a67c-c64552b1f263",
+				                        "Id": 26,
+				                        "StartPoint": {
+				                            "x": -0.27,
+				                            "y": -1.24
+				                        },
+				                        "EndPoint": {
+				                            "x": -0.27,
+				                            "y": -0.94
+				                        },
+				                        "Variance": {
+				                            "x": 0.0,
+				                            "y": 1.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 2.48,
+				                        "NextFootholdId": 21,
+				                        "PreviousFootholdId": 26,
+				                        "groupID": 3,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "be3f4a8b-9121-4ba3-a67c-c64552b1f263",
+				                        "Id": 27,
+				                        "StartPoint": {
+				                            "x": -0.27,
+				                            "y": -0.94
+				                        },
+				                        "EndPoint": {
+				                            "x": 2.21,
+				                            "y": -0.94
+				                        },
+				                        "Variance": {
+				                            "x": 1.0,
+				                            "y": 0.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.9,
+				                        "NextFootholdId": 24,
+				                        "PreviousFootholdId": 15,
+				                        "groupID": 1,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "be3f4a8b-9121-4ba3-a67c-c64552b1f263",
+				                        "Id": 28,
+				                        "StartPoint": {
+				                            "x": -1.8,
+				                            "y": 1.45
+				                        },
+				                        "EndPoint": {
+				                            "x": -0.9,
+				                            "y": 1.45
+				                        },
+				                        "Variance": {
+				                            "x": 1.0,
+				                            "y": 0.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.9,
+				                        "NextFootholdId": 30,
+				                        "PreviousFootholdId": 24,
+				                        "groupID": 1,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "be3f4a8b-9121-4ba3-a67c-c64552b1f263",
+				                        "Id": 29,
+				                        "StartPoint": {
+				                            "x": 0.0,
+				                            "y": 1.45
+				                        },
+				                        "EndPoint": {
+				                            "x": 0.9,
+				                            "y": 1.45
+				                        },
+				                        "Variance": {
+				                            "x": 1.0,
+				                            "y": 0.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.9,
+				                        "NextFootholdId": 31,
+				                        "PreviousFootholdId": 29,
+				                        "groupID": 1,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "be3f4a8b-9121-4ba3-a67c-c64552b1f263",
+				                        "Id": 30,
+				                        "StartPoint": {
+				                            "x": 0.9,
+				                            "y": 1.45
+				                        },
+				                        "EndPoint": {
+				                            "x": 1.8,
+				                            "y": 1.45
+				                        },
+				                        "Variance": {
+				                            "x": 1.0,
+				                            "y": 0.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.9000001,
+				                        "NextFootholdId": 32,
+				                        "PreviousFootholdId": 30,
+				                        "groupID": 1,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "be3f4a8b-9121-4ba3-a67c-c64552b1f263",
+				                        "Id": 31,
+				                        "StartPoint": {
+				                            "x": 1.8,
+				                            "y": 1.45
+				                        },
+				                        "EndPoint": {
+				                            "x": 2.7,
+				                            "y": 1.45
+				                        },
+				                        "Variance": {
+				                            "x": 1.0,
+				                            "y": 0.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.899999857,
+				                        "NextFootholdId": 0,
+				                        "PreviousFootholdId": 31,
+				                        "groupID": 1,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "be3f4a8b-9121-4ba3-a67c-c64552b1f263",
+				                        "Id": 32,
+				                        "StartPoint": {
+				                            "x": 2.7,
+				                            "y": 1.45
+				                        },
+				                        "EndPoint": {
+				                            "x": 3.6,
+				                            "y": 1.45
+				                        },
+				                        "Variance": {
+				                            "x": 1.0,
+				                            "y": 0.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.25,
+				                        "NextFootholdId": 39,
+				                        "PreviousFootholdId": 0,
+				                        "groupID": 4,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "8e5ffa74-4ff6-4f32-b6c1-7d4552ed29ce",
+				                        "Id": 33,
+				                        "StartPoint": {
+				                            "x": -11.19,
+				                            "y": -2.4
+				                        },
+				                        "EndPoint": {
+				                            "x": -11.19,
+				                            "y": -2.15
+				                        },
+				                        "Variance": {
+				                            "x": 0.0,
+				                            "y": 1.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.5100002,
+				                        "NextFootholdId": 41,
+				                        "PreviousFootholdId": 40,
+				                        "groupID": 4,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "8e5ffa74-4ff6-4f32-b6c1-7d4552ed29ce",
+				                        "Id": 34,
+				                        "StartPoint": {
+				                            "x": -10.41,
+				                            "y": -2.15
+				                        },
+				                        "EndPoint": {
+				                            "x": -9.9,
+				                            "y": -2.15
+				                        },
+				                        "Variance": {
+				                            "x": 1.0,
+				                            "y": 0.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.8999996,
+				                        "NextFootholdId": 36,
+				                        "PreviousFootholdId": 41,
+				                        "groupID": 4,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "8e5ffa74-4ff6-4f32-b6c1-7d4552ed29ce",
+				                        "Id": 35,
+				                        "StartPoint": {
+				                            "x": -9.0,
+				                            "y": -2.15
+				                        },
+				                        "EndPoint": {
+				                            "x": -8.1,
+				                            "y": -2.15
+				                        },
+				                        "Variance": {
+				                            "x": 1.0,
+				                            "y": 0.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.9000006,
+				                        "NextFootholdId": 37,
+				                        "PreviousFootholdId": 35,
+				                        "groupID": 4,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "8e5ffa74-4ff6-4f32-b6c1-7d4552ed29ce",
+				                        "Id": 36,
+				                        "StartPoint": {
+				                            "x": -8.1,
+				                            "y": -2.15
+				                        },
+				                        "EndPoint": {
+				                            "x": -7.2,
+				                            "y": -2.15
+				                        },
+				                        "Variance": {
+				                            "x": 1.0,
+				                            "y": 0.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.8999996,
+				                        "NextFootholdId": 43,
+				                        "PreviousFootholdId": 36,
+				                        "groupID": 4,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "8e5ffa74-4ff6-4f32-b6c1-7d4552ed29ce",
+				                        "Id": 37,
+				                        "StartPoint": {
+				                            "x": -7.2,
+				                            "y": -2.15
+				                        },
+				                        "EndPoint": {
+				                            "x": -6.3,
+				                            "y": -2.15
+				                        },
+				                        "Variance": {
+				                            "x": 1.0,
+				                            "y": 0.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.25,
+				                        "NextFootholdId": 0,
+				                        "PreviousFootholdId": 42,
+				                        "groupID": 4,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "8e5ffa74-4ff6-4f32-b6c1-7d4552ed29ce",
+				                        "Id": 38,
+				                        "StartPoint": {
+				                            "x": -5.01,
+				                            "y": -2.15
+				                        },
+				                        "EndPoint": {
+				                            "x": -5.01,
+				                            "y": -2.4
+				                        },
+				                        "Variance": {
+				                            "x": 0.0,
+				                            "y": -1.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.3899994,
+				                        "NextFootholdId": 40,
+				                        "PreviousFootholdId": 33,
+				                        "groupID": 4,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "8e5ffa74-4ff6-4f32-b6c1-7d4552ed29ce",
+				                        "Id": 39,
+				                        "StartPoint": {
+				                            "x": -11.19,
+				                            "y": -2.15
+				                        },
+				                        "EndPoint": {
+				                            "x": -10.8,
+				                            "y": -2.15
+				                        },
+				                        "Variance": {
+				                            "x": 1.0,
+				                            "y": 0.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.390000343,
+				                        "NextFootholdId": 34,
+				                        "PreviousFootholdId": 39,
+				                        "groupID": 4,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "8e5ffa74-4ff6-4f32-b6c1-7d4552ed29ce",
+				                        "Id": 40,
+				                        "StartPoint": {
+				                            "x": -10.8,
+				                            "y": -2.15
+				                        },
+				                        "EndPoint": {
+				                            "x": -10.41,
+				                            "y": -2.15
+				                        },
+				                        "Variance": {
+				                            "x": 1.0,
+				                            "y": 0.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.8999996,
+				                        "NextFootholdId": 35,
+				                        "PreviousFootholdId": 34,
+				                        "groupID": 4,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "8e5ffa74-4ff6-4f32-b6c1-7d4552ed29ce",
+				                        "Id": 41,
+				                        "StartPoint": {
+				                            "x": -9.9,
+				                            "y": -2.15
+				                        },
+				                        "EndPoint": {
+				                            "x": -9.0,
+				                            "y": -2.15
+				                        },
+				                        "Variance": {
+				                            "x": 1.0,
+				                            "y": 0.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.779999733,
+				                        "NextFootholdId": 38,
+				                        "PreviousFootholdId": 43,
+				                        "groupID": 4,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "8e5ffa74-4ff6-4f32-b6c1-7d4552ed29ce",
+				                        "Id": 42,
+				                        "StartPoint": {
+				                            "x": -5.79,
+				                            "y": -2.15
+				                        },
+				                        "EndPoint": {
+				                            "x": -5.01,
+				                            "y": -2.15
+				                        },
+				                        "Variance": {
+				                            "x": 1.0,
+				                            "y": 0.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.5100002,
+				                        "NextFootholdId": 42,
+				                        "PreviousFootholdId": 37,
+				                        "groupID": 4,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "8e5ffa74-4ff6-4f32-b6c1-7d4552ed29ce",
+				                        "Id": 43,
+				                        "StartPoint": {
+				                            "x": -6.3,
+				                            "y": -2.15
+				                        },
+				                        "EndPoint": {
+				                            "x": -5.79,
+				                            "y": -2.15
+				                        },
+				                        "Variance": {
+				                            "x": 1.0,
+				                            "y": 0.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.25000003,
+				                        "NextFootholdId": 45,
+				                        "PreviousFootholdId": 0,
+				                        "groupID": 5,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "7c7625c3-246a-4b17-9b59-28fa14ed7d44",
+				                        "Id": 44,
+				                        "StartPoint": {
+				                            "x": -10.29,
+				                            "y": -0.6
+				                        },
+				                        "EndPoint": {
+				                            "x": -10.29,
+				                            "y": -0.35
+				                        },
+				                        "Variance": {
+				                            "x": 0.0,
+				                            "y": 1.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.779999733,
+				                        "NextFootholdId": 46,
+				                        "PreviousFootholdId": 44,
+				                        "groupID": 5,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "7c7625c3-246a-4b17-9b59-28fa14ed7d44",
+				                        "Id": 45,
+				                        "StartPoint": {
+				                            "x": -10.29,
+				                            "y": -0.35
+				                        },
+				                        "EndPoint": {
+				                            "x": -9.51,
+				                            "y": -0.35
+				                        },
+				                        "Variance": {
+				                            "x": 1.0,
+				                            "y": 0.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.5100002,
+				                        "NextFootholdId": 47,
+				                        "PreviousFootholdId": 45,
+				                        "groupID": 5,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "7c7625c3-246a-4b17-9b59-28fa14ed7d44",
+				                        "Id": 46,
+				                        "StartPoint": {
+				                            "x": -9.51,
+				                            "y": -0.35
+				                        },
+				                        "EndPoint": {
+				                            "x": -9.0,
+				                            "y": -0.35
+				                        },
+				                        "Variance": {
+				                            "x": 1.0,
+				                            "y": 0.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.8999996,
+				                        "NextFootholdId": 48,
+				                        "PreviousFootholdId": 46,
+				                        "groupID": 5,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "7c7625c3-246a-4b17-9b59-28fa14ed7d44",
+				                        "Id": 47,
+				                        "StartPoint": {
+				                            "x": -9.0,
+				                            "y": -0.35
+				                        },
+				                        "EndPoint": {
+				                            "x": -8.1,
+				                            "y": -0.35
+				                        },
+				                        "Variance": {
+				                            "x": 1.0,
+				                            "y": 0.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.9000006,
+				                        "NextFootholdId": 49,
+				                        "PreviousFootholdId": 47,
+				                        "groupID": 5,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "7c7625c3-246a-4b17-9b59-28fa14ed7d44",
+				                        "Id": 48,
+				                        "StartPoint": {
+				                            "x": -8.1,
+				                            "y": -0.35
+				                        },
+				                        "EndPoint": {
+				                            "x": -7.2,
+				                            "y": -0.35
+				                        },
+				                        "Variance": {
+				                            "x": 1.0,
+				                            "y": 0.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.509999752,
+				                        "NextFootholdId": 51,
+				                        "PreviousFootholdId": 48,
+				                        "groupID": 5,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "7c7625c3-246a-4b17-9b59-28fa14ed7d44",
+				                        "Id": 49,
+				                        "StartPoint": {
+				                            "x": -7.2,
+				                            "y": -0.35
+				                        },
+				                        "EndPoint": {
+				                            "x": -6.69,
+				                            "y": -0.35
+				                        },
+				                        "Variance": {
+				                            "x": 1.0,
+				                            "y": 0.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.25000003,
+				                        "NextFootholdId": 0,
+				                        "PreviousFootholdId": 51,
+				                        "groupID": 5,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "7c7625c3-246a-4b17-9b59-28fa14ed7d44",
+				                        "Id": 50,
+				                        "StartPoint": {
+				                            "x": -5.91,
+				                            "y": -0.35
+				                        },
+				                        "EndPoint": {
+				                            "x": -5.91,
+				                            "y": -0.6
+				                        },
+				                        "Variance": {
+				                            "x": 0.0,
+				                            "y": -1.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.7800002,
+				                        "NextFootholdId": 50,
+				                        "PreviousFootholdId": 49,
+				                        "groupID": 5,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "7c7625c3-246a-4b17-9b59-28fa14ed7d44",
+				                        "Id": 51,
+				                        "StartPoint": {
+				                            "x": -6.69,
+				                            "y": -0.35
+				                        },
+				                        "EndPoint": {
+				                            "x": -5.91,
+				                            "y": -0.35
+				                        },
+				                        "Variance": {
+				                            "x": 1.0,
+				                            "y": 0.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.25,
+				                        "NextFootholdId": 53,
+				                        "PreviousFootholdId": 0,
+				                        "groupID": 6,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "37c771db-e0f5-4036-b8af-42149ce94b81",
+				                        "Id": 52,
+				                        "StartPoint": {
+				                            "x": -6.69,
+				                            "y": 1.2
+				                        },
+				                        "EndPoint": {
+				                            "x": -6.69,
+				                            "y": 1.45
+				                        },
+				                        "Variance": {
+				                            "x": 0.0,
+				                            "y": 1.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.7800002,
+				                        "NextFootholdId": 54,
+				                        "PreviousFootholdId": 52,
+				                        "groupID": 6,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "37c771db-e0f5-4036-b8af-42149ce94b81",
+				                        "Id": 53,
+				                        "StartPoint": {
+				                            "x": -6.69,
+				                            "y": 1.45
+				                        },
+				                        "EndPoint": {
+				                            "x": -5.91,
+				                            "y": 1.45
+				                        },
+				                        "Variance": {
+				                            "x": 1.0,
+				                            "y": 0.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.119999886,
+				                        "NextFootholdId": 56,
+				                        "PreviousFootholdId": 53,
+				                        "groupID": 6,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "37c771db-e0f5-4036-b8af-42149ce94b81",
+				                        "Id": 54,
+				                        "StartPoint": {
+				                            "x": -5.91,
+				                            "y": 1.45
+				                        },
+				                        "EndPoint": {
+				                            "x": -5.79,
+				                            "y": 1.45
+				                        },
+				                        "Variance": {
+				                            "x": 1.0,
+				                            "y": 0.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.25,
+				                        "NextFootholdId": 0,
+				                        "PreviousFootholdId": 56,
+				                        "groupID": 6,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "37c771db-e0f5-4036-b8af-42149ce94b81",
+				                        "Id": 55,
+				                        "StartPoint": {
+				                            "x": -5.01,
+				                            "y": 1.45
+				                        },
+				                        "EndPoint": {
+				                            "x": -5.01,
+				                            "y": 1.2
+				                        },
+				                        "Variance": {
+				                            "x": 0.0,
+				                            "y": -1.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.779999733,
+				                        "NextFootholdId": 55,
+				                        "PreviousFootholdId": 54,
+				                        "groupID": 6,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "37c771db-e0f5-4036-b8af-42149ce94b81",
+				                        "Id": 56,
+				                        "StartPoint": {
+				                            "x": -5.79,
+				                            "y": 1.45
+				                        },
+				                        "EndPoint": {
+				                            "x": -5.01,
+				                            "y": 1.45
+				                        },
+				                        "Variance": {
+				                            "x": 1.0,
+				                            "y": 0.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.25,
+				                        "NextFootholdId": 58,
+				                        "PreviousFootholdId": 0,
+				                        "groupID": 7,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "e3054da4-0ccf-441e-8c35-10aa6f46fa8e",
+				                        "Id": 57,
+				                        "StartPoint": {
+				                            "x": -4.89,
+				                            "y": 0.6
+				                        },
+				                        "EndPoint": {
+				                            "x": -4.89,
+				                            "y": 0.85
+				                        },
+				                        "Variance": {
+				                            "x": 0.0,
+				                            "y": 1.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.779999733,
+				                        "NextFootholdId": 59,
+				                        "PreviousFootholdId": 57,
+				                        "groupID": 7,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "e3054da4-0ccf-441e-8c35-10aa6f46fa8e",
+				                        "Id": 58,
+				                        "StartPoint": {
+				                            "x": -4.89,
+				                            "y": 0.85
+				                        },
+				                        "EndPoint": {
+				                            "x": -4.11,
+				                            "y": 0.85
+				                        },
+				                        "Variance": {
+				                            "x": 1.0,
+				                            "y": 0.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.120000124,
+				                        "NextFootholdId": 61,
+				                        "PreviousFootholdId": 58,
+				                        "groupID": 7,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "e3054da4-0ccf-441e-8c35-10aa6f46fa8e",
+				                        "Id": 59,
+				                        "StartPoint": {
+				                            "x": -4.11,
+				                            "y": 0.85
+				                        },
+				                        "EndPoint": {
+				                            "x": -3.99,
+				                            "y": 0.85
+				                        },
+				                        "Variance": {
+				                            "x": 1.0,
+				                            "y": 0.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.25,
+				                        "NextFootholdId": 0,
+				                        "PreviousFootholdId": 61,
+				                        "groupID": 7,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "e3054da4-0ccf-441e-8c35-10aa6f46fa8e",
+				                        "Id": 60,
+				                        "StartPoint": {
+				                            "x": -3.21,
+				                            "y": 0.85
+				                        },
+				                        "EndPoint": {
+				                            "x": -3.21,
+				                            "y": 0.6
+				                        },
+				                        "Variance": {
+				                            "x": 0.0,
+				                            "y": -1.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.78,
+				                        "NextFootholdId": 60,
+				                        "PreviousFootholdId": 59,
+				                        "groupID": 7,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "e3054da4-0ccf-441e-8c35-10aa6f46fa8e",
+				                        "Id": 61,
+				                        "StartPoint": {
+				                            "x": -3.99,
+				                            "y": 0.85
+				                        },
+				                        "EndPoint": {
+				                            "x": -3.21,
+				                            "y": 0.85
+				                        },
+				                        "Variance": {
+				                            "x": 1.0,
+				                            "y": 0.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.25,
+				                        "NextFootholdId": 63,
+				                        "PreviousFootholdId": 0,
+				                        "groupID": 8,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "420e14d3-41cb-488d-b3f4-5af4006d0cb2",
+				                        "Id": 62,
+				                        "StartPoint": {
+				                            "x": -3.99,
+				                            "y": 0.0
+				                        },
+				                        "EndPoint": {
+				                            "x": -3.99,
+				                            "y": 0.25
+				                        },
+				                        "Variance": {
+				                            "x": 0.0,
+				                            "y": 1.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.78,
+				                        "NextFootholdId": 64,
+				                        "PreviousFootholdId": 62,
+				                        "groupID": 8,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "420e14d3-41cb-488d-b3f4-5af4006d0cb2",
+				                        "Id": 63,
+				                        "StartPoint": {
+				                            "x": -3.99,
+				                            "y": 0.25
+				                        },
+				                        "EndPoint": {
+				                            "x": -3.21,
+				                            "y": 0.25
+				                        },
+				                        "Variance": {
+				                            "x": 1.0,
+				                            "y": 0.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.120000124,
+				                        "NextFootholdId": 66,
+				                        "PreviousFootholdId": 63,
+				                        "groupID": 8,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "420e14d3-41cb-488d-b3f4-5af4006d0cb2",
+				                        "Id": 64,
+				                        "StartPoint": {
+				                            "x": -3.21,
+				                            "y": 0.25
+				                        },
+				                        "EndPoint": {
+				                            "x": -3.09,
+				                            "y": 0.25
+				                        },
+				                        "Variance": {
+				                            "x": 1.0,
+				                            "y": 0.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.25,
+				                        "NextFootholdId": 0,
+				                        "PreviousFootholdId": 66,
+				                        "groupID": 8,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "420e14d3-41cb-488d-b3f4-5af4006d0cb2",
+				                        "Id": 65,
+				                        "StartPoint": {
+				                            "x": -2.31,
+				                            "y": 0.25
+				                        },
+				                        "EndPoint": {
+				                            "x": -2.31,
+				                            "y": 0.0
+				                        },
+				                        "Variance": {
+				                            "x": 0.0,
+				                            "y": -1.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.78,
+				                        "NextFootholdId": 65,
+				                        "PreviousFootholdId": 64,
+				                        "groupID": 8,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "420e14d3-41cb-488d-b3f4-5af4006d0cb2",
+				                        "Id": 66,
+				                        "StartPoint": {
+				                            "x": -3.09,
+				                            "y": 0.25
+				                        },
+				                        "EndPoint": {
+				                            "x": -2.31,
+				                            "y": 0.25
+				                        },
+				                        "Variance": {
+				                            "x": 1.0,
+				                            "y": 0.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.5999999,
+				                        "NextFootholdId": 69,
+				                        "PreviousFootholdId": 0,
+				                        "groupID": 9,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "95cecfea-1b0f-4bb2-9503-1c6c960b875b",
+				                        "Id": 67,
+				                        "StartPoint": {
+				                            "x": -12.54,
+				                            "y": -6.9
+				                        },
+				                        "EndPoint": {
+				                            "x": -12.54,
+				                            "y": -6.3
+				                        },
+				                        "Variance": {
+				                            "x": 0.0,
+				                            "y": 1.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.8999996,
+				                        "NextFootholdId": 109,
+				                        "PreviousFootholdId": 102,
+				                        "groupID": 9,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "95cecfea-1b0f-4bb2-9503-1c6c960b875b",
+				                        "Id": 68,
+				                        "StartPoint": {
+				                            "x": -11.25,
+				                            "y": -5.45
+				                        },
+				                        "EndPoint": {
+				                            "x": -10.35,
+				                            "y": -5.45
+				                        },
+				                        "Variance": {
+				                            "x": 1.0,
+				                            "y": 0.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.6000004,
+				                        "NextFootholdId": 95,
+				                        "PreviousFootholdId": 67,
+				                        "groupID": 9,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "95cecfea-1b0f-4bb2-9503-1c6c960b875b",
+				                        "Id": 69,
+				                        "StartPoint": {
+				                            "x": -12.54,
+				                            "y": -6.3
+				                        },
+				                        "EndPoint": {
+				                            "x": -12.54,
+				                            "y": -5.7
+				                        },
+				                        "Variance": {
+				                            "x": 0.0,
+				                            "y": 1.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.119999886,
+				                        "NextFootholdId": 73,
+				                        "PreviousFootholdId": 72,
+				                        "groupID": 9,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "95cecfea-1b0f-4bb2-9503-1c6c960b875b",
+				                        "Id": 70,
+				                        "StartPoint": {
+				                            "x": -2.76,
+				                            "y": -4.25
+				                        },
+				                        "EndPoint": {
+				                            "x": -2.64,
+				                            "y": -4.25
+				                        },
+				                        "Variance": {
+				                            "x": 1.0,
+				                            "y": 0.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.389999866,
+				                        "NextFootholdId": 72,
+				                        "PreviousFootholdId": 93,
+				                        "groupID": 9,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "95cecfea-1b0f-4bb2-9503-1c6c960b875b",
+				                        "Id": 71,
+				                        "StartPoint": {
+				                            "x": -3.54,
+				                            "y": -4.25
+				                        },
+				                        "EndPoint": {
+				                            "x": -3.15,
+				                            "y": -4.25
+				                        },
+				                        "Variance": {
+				                            "x": 1.0,
+				                            "y": 0.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.3900001,
+				                        "NextFootholdId": 70,
+				                        "PreviousFootholdId": 71,
+				                        "groupID": 9,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "95cecfea-1b0f-4bb2-9503-1c6c960b875b",
+				                        "Id": 72,
+				                        "StartPoint": {
+				                            "x": -3.15,
+				                            "y": -4.25
+				                        },
+				                        "EndPoint": {
+				                            "x": -2.76,
+				                            "y": -4.25
+				                        },
+				                        "Variance": {
+				                            "x": 1.0,
+				                            "y": 0.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.3499999,
+				                        "NextFootholdId": 74,
+				                        "PreviousFootholdId": 70,
+				                        "groupID": 9,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "95cecfea-1b0f-4bb2-9503-1c6c960b875b",
+				                        "Id": 73,
+				                        "StartPoint": {
+				                            "x": -2.64,
+				                            "y": -4.25
+				                        },
+				                        "EndPoint": {
+				                            "x": -2.64,
+				                            "y": -3.9
+				                        },
+				                        "Variance": {
+				                            "x": 0.0,
+				                            "y": 1.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.25,
+				                        "NextFootholdId": 75,
+				                        "PreviousFootholdId": 73,
+				                        "groupID": 9,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "95cecfea-1b0f-4bb2-9503-1c6c960b875b",
+				                        "Id": 74,
+				                        "StartPoint": {
+				                            "x": -2.64,
+				                            "y": -3.9
+				                        },
+				                        "EndPoint": {
+				                            "x": -2.64,
+				                            "y": -3.65
+				                        },
+				                        "Variance": {
+				                            "x": 0.0,
+				                            "y": 1.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.3900001,
+				                        "NextFootholdId": 76,
+				                        "PreviousFootholdId": 74,
+				                        "groupID": 9,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "95cecfea-1b0f-4bb2-9503-1c6c960b875b",
+				                        "Id": 75,
+				                        "StartPoint": {
+				                            "x": -2.64,
+				                            "y": -3.65
+				                        },
+				                        "EndPoint": {
+				                            "x": -2.25,
+				                            "y": -3.65
+				                        },
+				                        "Variance": {
+				                            "x": 1.0,
+				                            "y": 0.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.39,
+				                        "NextFootholdId": 86,
+				                        "PreviousFootholdId": 75,
+				                        "groupID": 9,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "95cecfea-1b0f-4bb2-9503-1c6c960b875b",
+				                        "Id": 76,
+				                        "StartPoint": {
+				                            "x": -2.25,
+				                            "y": -3.65
+				                        },
+				                        "EndPoint": {
+				                            "x": -1.86,
+				                            "y": -3.65
+				                        },
+				                        "Variance": {
+				                            "x": 1.0,
+				                            "y": 0.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.900000036,
+				                        "NextFootholdId": 81,
+				                        "PreviousFootholdId": 86,
+				                        "groupID": 9,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "95cecfea-1b0f-4bb2-9503-1c6c960b875b",
+				                        "Id": 77,
+				                        "StartPoint": {
+				                            "x": -1.35,
+				                            "y": -3.65
+				                        },
+				                        "EndPoint": {
+				                            "x": -0.45,
+				                            "y": -3.65
+				                        },
+				                        "Variance": {
+				                            "x": 1.0,
+				                            "y": 0.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.9000001,
+				                        "NextFootholdId": 84,
+				                        "PreviousFootholdId": 80,
+				                        "groupID": 9,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "95cecfea-1b0f-4bb2-9503-1c6c960b875b",
+				                        "Id": 78,
+				                        "StartPoint": {
+				                            "x": 3.15,
+				                            "y": -3.65
+				                        },
+				                        "EndPoint": {
+				                            "x": 4.05,
+				                            "y": -3.65
+				                        },
+				                        "Variance": {
+				                            "x": 1.0,
+				                            "y": 0.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.389999866,
+				                        "NextFootholdId": 88,
+				                        "PreviousFootholdId": 84,
+				                        "groupID": 9,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "95cecfea-1b0f-4bb2-9503-1c6c960b875b",
+				                        "Id": 79,
+				                        "StartPoint": {
+				                            "x": 4.56,
+				                            "y": -3.65
+				                        },
+				                        "EndPoint": {
+				                            "x": 4.95,
+				                            "y": -3.65
+				                        },
+				                        "Variance": {
+				                            "x": 1.0,
+				                            "y": 0.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.9000001,
+				                        "NextFootholdId": 78,
+				                        "PreviousFootholdId": 82,
+				                        "groupID": 9,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "95cecfea-1b0f-4bb2-9503-1c6c960b875b",
+				                        "Id": 80,
+				                        "StartPoint": {
+				                            "x": 2.25,
+				                            "y": -3.65
+				                        },
+				                        "EndPoint": {
+				                            "x": 3.15,
+				                            "y": -3.65
+				                        },
+				                        "Variance": {
+				                            "x": 1.0,
+				                            "y": 0.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.9,
+				                        "NextFootholdId": 92,
+				                        "PreviousFootholdId": 77,
+				                        "groupID": 9,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "95cecfea-1b0f-4bb2-9503-1c6c960b875b",
+				                        "Id": 81,
+				                        "StartPoint": {
+				                            "x": -0.45,
+				                            "y": -3.65
+				                        },
+				                        "EndPoint": {
+				                            "x": 0.45,
+				                            "y": -3.65
+				                        },
+				                        "Variance": {
+				                            "x": 1.0,
+				                            "y": 0.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.9,
+				                        "NextFootholdId": 80,
+				                        "PreviousFootholdId": 92,
+				                        "groupID": 9,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "95cecfea-1b0f-4bb2-9503-1c6c960b875b",
+				                        "Id": 82,
+				                        "StartPoint": {
+				                            "x": 1.35,
+				                            "y": -3.65
+				                        },
+				                        "EndPoint": {
+				                            "x": 2.25,
+				                            "y": -3.65
+				                        },
+				                        "Variance": {
+				                            "x": 1.0,
+				                            "y": 0.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.120000124,
+				                        "NextFootholdId": 98,
+				                        "PreviousFootholdId": 97,
+				                        "groupID": 9,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "95cecfea-1b0f-4bb2-9503-1c6c960b875b",
+				                        "Id": 83,
+				                        "StartPoint": {
+				                            "x": -3.66,
+				                            "y": -4.85
+				                        },
+				                        "EndPoint": {
+				                            "x": -3.54,
+				                            "y": -4.85
+				                        },
+				                        "Variance": {
+				                            "x": 1.0,
+				                            "y": 0.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.509999752,
+				                        "NextFootholdId": 79,
+				                        "PreviousFootholdId": 78,
+				                        "groupID": 9,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "95cecfea-1b0f-4bb2-9503-1c6c960b875b",
+				                        "Id": 84,
+				                        "StartPoint": {
+				                            "x": 4.05,
+				                            "y": -3.65
+				                        },
+				                        "EndPoint": {
+				                            "x": 4.56,
+				                            "y": -3.65
+				                        },
+				                        "Variance": {
+				                            "x": 1.0,
+				                            "y": 0.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.5999999,
+				                        "NextFootholdId": 91,
+				                        "PreviousFootholdId": 90,
+				                        "groupID": 9,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "95cecfea-1b0f-4bb2-9503-1c6c960b875b",
+				                        "Id": 85,
+				                        "StartPoint": {
+				                            "x": 5.34,
+				                            "y": -4.5
+				                        },
+				                        "EndPoint": {
+				                            "x": 5.34,
+				                            "y": -5.1
+				                        },
+				                        "Variance": {
+				                            "x": 0.0,
+				                            "y": -1.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.51,
+				                        "NextFootholdId": 77,
+				                        "PreviousFootholdId": 76,
+				                        "groupID": 9,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "95cecfea-1b0f-4bb2-9503-1c6c960b875b",
+				                        "Id": 86,
+				                        "StartPoint": {
+				                            "x": -1.86,
+				                            "y": -3.65
+				                        },
+				                        "EndPoint": {
+				                            "x": -1.35,
+				                            "y": -3.65
+				                        },
+				                        "Variance": {
+				                            "x": 1.0,
+				                            "y": 0.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.6000004,
+				                        "NextFootholdId": 94,
+				                        "PreviousFootholdId": 91,
+				                        "groupID": 9,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "95cecfea-1b0f-4bb2-9503-1c6c960b875b",
+				                        "Id": 87,
+				                        "StartPoint": {
+				                            "x": 5.34,
+				                            "y": -5.7
+				                        },
+				                        "EndPoint": {
+				                            "x": 5.34,
+				                            "y": -6.3
+				                        },
+				                        "Variance": {
+				                            "x": 0.0,
+				                            "y": -1.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.390000343,
+				                        "NextFootholdId": 89,
+				                        "PreviousFootholdId": 79,
+				                        "groupID": 9,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "95cecfea-1b0f-4bb2-9503-1c6c960b875b",
+				                        "Id": 88,
+				                        "StartPoint": {
+				                            "x": 4.95,
+				                            "y": -3.65
+				                        },
+				                        "EndPoint": {
+				                            "x": 5.34,
+				                            "y": -3.65
+				                        },
+				                        "Variance": {
+				                            "x": 1.0,
+				                            "y": 0.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.25,
+				                        "NextFootholdId": 90,
+				                        "PreviousFootholdId": 88,
+				                        "groupID": 9,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "95cecfea-1b0f-4bb2-9503-1c6c960b875b",
+				                        "Id": 89,
+				                        "StartPoint": {
+				                            "x": 5.34,
+				                            "y": -3.65
+				                        },
+				                        "EndPoint": {
+				                            "x": 5.34,
+				                            "y": -3.9
+				                        },
+				                        "Variance": {
+				                            "x": 0.0,
+				                            "y": -1.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.5999999,
+				                        "NextFootholdId": 85,
+				                        "PreviousFootholdId": 89,
+				                        "groupID": 9,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "95cecfea-1b0f-4bb2-9503-1c6c960b875b",
+				                        "Id": 90,
+				                        "StartPoint": {
+				                            "x": 5.34,
+				                            "y": -3.9
+				                        },
+				                        "EndPoint": {
+				                            "x": 5.34,
+				                            "y": -4.5
+				                        },
+				                        "Variance": {
+				                            "x": 0.0,
+				                            "y": -1.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.5999999,
+				                        "NextFootholdId": 87,
+				                        "PreviousFootholdId": 85,
+				                        "groupID": 9,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "95cecfea-1b0f-4bb2-9503-1c6c960b875b",
+				                        "Id": 91,
+				                        "StartPoint": {
+				                            "x": 5.34,
+				                            "y": -5.1
+				                        },
+				                        "EndPoint": {
+				                            "x": 5.34,
+				                            "y": -5.7
+				                        },
+				                        "Variance": {
+				                            "x": 0.0,
+				                            "y": -1.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.900000036,
+				                        "NextFootholdId": 82,
+				                        "PreviousFootholdId": 81,
+				                        "groupID": 9,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "95cecfea-1b0f-4bb2-9503-1c6c960b875b",
+				                        "Id": 92,
+				                        "StartPoint": {
+				                            "x": 0.45,
+				                            "y": -3.65
+				                        },
+				                        "EndPoint": {
+				                            "x": 1.35,
+				                            "y": -3.65
+				                        },
+				                        "Variance": {
+				                            "x": 1.0,
+				                            "y": 0.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.25,
+				                        "NextFootholdId": 71,
+				                        "PreviousFootholdId": 98,
+				                        "groupID": 9,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "95cecfea-1b0f-4bb2-9503-1c6c960b875b",
+				                        "Id": 93,
+				                        "StartPoint": {
+				                            "x": -3.54,
+				                            "y": -4.5
+				                        },
+				                        "EndPoint": {
+				                            "x": -3.54,
+				                            "y": -4.25
+				                        },
+				                        "Variance": {
+				                            "x": 0.0,
+				                            "y": 1.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.5999999,
+				                        "NextFootholdId": 0,
+				                        "PreviousFootholdId": 87,
+				                        "groupID": 9,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "95cecfea-1b0f-4bb2-9503-1c6c960b875b",
+				                        "Id": 94,
+				                        "StartPoint": {
+				                            "x": 5.34,
+				                            "y": -6.3
+				                        },
+				                        "EndPoint": {
+				                            "x": 5.34,
+				                            "y": -6.9
+				                        },
+				                        "Variance": {
+				                            "x": 0.0,
+				                            "y": -1.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.25,
+				                        "NextFootholdId": 101,
+				                        "PreviousFootholdId": 69,
+				                        "groupID": 9,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "95cecfea-1b0f-4bb2-9503-1c6c960b875b",
+				                        "Id": 95,
+				                        "StartPoint": {
+				                            "x": -12.54,
+				                            "y": -5.7
+				                        },
+				                        "EndPoint": {
+				                            "x": -12.54,
+				                            "y": -5.45
+				                        },
+				                        "Variance": {
+				                            "x": 0.0,
+				                            "y": 1.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.389999866,
+				                        "NextFootholdId": 97,
+				                        "PreviousFootholdId": 100,
+				                        "groupID": 9,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "95cecfea-1b0f-4bb2-9503-1c6c960b875b",
+				                        "Id": 96,
+				                        "StartPoint": {
+				                            "x": -4.44,
+				                            "y": -4.85
+				                        },
+				                        "EndPoint": {
+				                            "x": -4.05,
+				                            "y": -4.85
+				                        },
+				                        "Variance": {
+				                            "x": 1.0,
+				                            "y": 0.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.3900001,
+				                        "NextFootholdId": 83,
+				                        "PreviousFootholdId": 96,
+				                        "groupID": 9,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "95cecfea-1b0f-4bb2-9503-1c6c960b875b",
+				                        "Id": 97,
+				                        "StartPoint": {
+				                            "x": -4.05,
+				                            "y": -4.85
+				                        },
+				                        "EndPoint": {
+				                            "x": -3.66,
+				                            "y": -4.85
+				                        },
+				                        "Variance": {
+				                            "x": 1.0,
+				                            "y": 0.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.3499999,
+				                        "NextFootholdId": 93,
+				                        "PreviousFootholdId": 83,
+				                        "groupID": 9,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "95cecfea-1b0f-4bb2-9503-1c6c960b875b",
+				                        "Id": 98,
+				                        "StartPoint": {
+				                            "x": -3.54,
+				                            "y": -4.85
+				                        },
+				                        "EndPoint": {
+				                            "x": -3.54,
+				                            "y": -4.5
+				                        },
+				                        "Variance": {
+				                            "x": 0.0,
+				                            "y": 1.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.3499999,
+				                        "NextFootholdId": 100,
+				                        "PreviousFootholdId": 103,
+				                        "groupID": 9,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "95cecfea-1b0f-4bb2-9503-1c6c960b875b",
+				                        "Id": 99,
+				                        "StartPoint": {
+				                            "x": -4.44,
+				                            "y": -5.45
+				                        },
+				                        "EndPoint": {
+				                            "x": -4.44,
+				                            "y": -5.1
+				                        },
+				                        "Variance": {
+				                            "x": 0.0,
+				                            "y": 1.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.25,
+				                        "NextFootholdId": 96,
+				                        "PreviousFootholdId": 99,
+				                        "groupID": 9,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "95cecfea-1b0f-4bb2-9503-1c6c960b875b",
+				                        "Id": 100,
+				                        "StartPoint": {
+				                            "x": -4.44,
+				                            "y": -5.1
+				                        },
+				                        "EndPoint": {
+				                            "x": -4.44,
+				                            "y": -4.85
+				                        },
+				                        "Variance": {
+				                            "x": 0.0,
+				                            "y": 1.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.779999733,
+				                        "NextFootholdId": 102,
+				                        "PreviousFootholdId": 95,
+				                        "groupID": 9,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "95cecfea-1b0f-4bb2-9503-1c6c960b875b",
+				                        "Id": 101,
+				                        "StartPoint": {
+				                            "x": -12.54,
+				                            "y": -5.45
+				                        },
+				                        "EndPoint": {
+				                            "x": -11.76,
+				                            "y": -5.45
+				                        },
+				                        "Variance": {
+				                            "x": 1.0,
+				                            "y": 0.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.5100002,
+				                        "NextFootholdId": 68,
+				                        "PreviousFootholdId": 101,
+				                        "groupID": 9,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "95cecfea-1b0f-4bb2-9503-1c6c960b875b",
+				                        "Id": 102,
+				                        "StartPoint": {
+				                            "x": -11.76,
+				                            "y": -5.45
+				                        },
+				                        "EndPoint": {
+				                            "x": -11.25,
+				                            "y": -5.45
+				                        },
+				                        "Variance": {
+				                            "x": 1.0,
+				                            "y": 0.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.509999752,
+				                        "NextFootholdId": 99,
+				                        "PreviousFootholdId": 104,
+				                        "groupID": 9,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "95cecfea-1b0f-4bb2-9503-1c6c960b875b",
+				                        "Id": 103,
+				                        "StartPoint": {
+				                            "x": -4.95,
+				                            "y": -5.45
+				                        },
+				                        "EndPoint": {
+				                            "x": -4.44,
+				                            "y": -5.45
+				                        },
+				                        "Variance": {
+				                            "x": 1.0,
+				                            "y": 0.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.9000001,
+				                        "NextFootholdId": 103,
+				                        "PreviousFootholdId": 105,
+				                        "groupID": 9,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "95cecfea-1b0f-4bb2-9503-1c6c960b875b",
+				                        "Id": 104,
+				                        "StartPoint": {
+				                            "x": -5.85,
+				                            "y": -5.45
+				                        },
+				                        "EndPoint": {
+				                            "x": -4.95,
+				                            "y": -5.45
+				                        },
+				                        "Variance": {
+				                            "x": 1.0,
+				                            "y": 0.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.9000001,
+				                        "NextFootholdId": 104,
+				                        "PreviousFootholdId": 106,
+				                        "groupID": 9,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "95cecfea-1b0f-4bb2-9503-1c6c960b875b",
+				                        "Id": 105,
+				                        "StartPoint": {
+				                            "x": -6.75,
+				                            "y": -5.45
+				                        },
+				                        "EndPoint": {
+				                            "x": -5.85,
+				                            "y": -5.45
+				                        },
+				                        "Variance": {
+				                            "x": 1.0,
+				                            "y": 0.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.9000001,
+				                        "NextFootholdId": 105,
+				                        "PreviousFootholdId": 107,
+				                        "groupID": 9,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "95cecfea-1b0f-4bb2-9503-1c6c960b875b",
+				                        "Id": 106,
+				                        "StartPoint": {
+				                            "x": -7.65,
+				                            "y": -5.45
+				                        },
+				                        "EndPoint": {
+				                            "x": -6.75,
+				                            "y": -5.45
+				                        },
+				                        "Variance": {
+				                            "x": 1.0,
+				                            "y": 0.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.9000001,
+				                        "NextFootholdId": 106,
+				                        "PreviousFootholdId": 108,
+				                        "groupID": 9,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "95cecfea-1b0f-4bb2-9503-1c6c960b875b",
+				                        "Id": 107,
+				                        "StartPoint": {
+				                            "x": -8.55,
+				                            "y": -5.45
+				                        },
+				                        "EndPoint": {
+				                            "x": -7.65,
+				                            "y": -5.45
+				                        },
+				                        "Variance": {
+				                            "x": 1.0,
+				                            "y": 0.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.8999996,
+				                        "NextFootholdId": 107,
+				                        "PreviousFootholdId": 109,
+				                        "groupID": 9,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "95cecfea-1b0f-4bb2-9503-1c6c960b875b",
+				                        "Id": 108,
+				                        "StartPoint": {
+				                            "x": -9.45,
+				                            "y": -5.45
+				                        },
+				                        "EndPoint": {
+				                            "x": -8.55,
+				                            "y": -5.45
+				                        },
+				                        "Variance": {
+				                            "x": 1.0,
+				                            "y": 0.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.9000006,
+				                        "NextFootholdId": 108,
+				                        "PreviousFootholdId": 68,
+				                        "groupID": 9,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "95cecfea-1b0f-4bb2-9503-1c6c960b875b",
+				                        "Id": 109,
+				                        "StartPoint": {
+				                            "x": -10.35,
+				                            "y": -5.45
+				                        },
+				                        "EndPoint": {
+				                            "x": -9.45,
+				                            "y": -5.45
+				                        },
+				                        "Variance": {
+				                            "x": 1.0,
+				                            "y": 0.0
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.6203225,
+				                        "NextFootholdId": 111,
+				                        "PreviousFootholdId": 0,
+				                        "groupID": 10,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "e1319c9b-726e-46a8-bada-23e3b2cd96e1",
+				                        "Id": 110,
+				                        "StartPoint": {
+				                            "x": -1.23,
+				                            "y": 0.09
+				                        },
+				                        "EndPoint": {
+				                            "x": -0.61,
+				                            "y": 0.07
+				                        },
+				                        "Variance": {
+				                            "x": 0.999480069,
+				                            "y": -0.032241296
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.5124451,
+				                        "NextFootholdId": 112,
+				                        "PreviousFootholdId": 110,
+				                        "groupID": 10,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "e1319c9b-726e-46a8-bada-23e3b2cd96e1",
+				                        "Id": 111,
+				                        "StartPoint": {
+				                            "x": -0.61,
+				                            "y": 0.07
+				                        },
+				                        "EndPoint": {
+				                            "x": -0.1,
+				                            "y": 0.12
+				                        },
+				                        "Variance": {
+				                            "x": 0.9952285,
+				                            "y": 0.0975714251
+				                        },
+				                        "IsDynamic": false
+				                    },
+				                    {
+				                        "Length": 0.2501999,
+				                        "NextFootholdId": 0,
+				                        "PreviousFootholdId": 111,
+				                        "groupID": 10,
+				                        "layer": 1,
+				                        "sortingLayerName": "MapLayer0",
+				                        "attribute": {
+				                            "walk": 1.0,
+				                            "force": 0.0,
+				                            "drag": 1.0,
+				                            "isBlockVertical": false,
+				                            "isDynamic": false,
+				                            "isCustomFoothold": true,
+				                            "inertiaOption": 0
+				                        },
+				                        "OwnerId": "e1319c9b-726e-46a8-bada-23e3b2cd96e1",
+				                        "Id": 112,
+				                        "StartPoint": {
+				                            "x": -0.1,
+				                            "y": 0.12
+				                        },
+				                        "EndPoint": {
+				                            "x": 0.15,
+				                            "y": 0.11
+				                        },
+				                        "Variance": {
+				                            "x": 0.999201,
+				                            "y": -0.0399680324
+				                        },
+				                        "IsDynamic": false
+				                    }
+				                ]
+				            },
+				            "Enable": false
+				        }
+				    ],
+				    "@version": 1
+				}
+			],
+			"miscs": [
+				"MOD.Core.MapComponent",
+				"MOD.Core.FootholdComponent"
+			]
+		},
+		{
+			"entryId": "257c7578-b831-4af7-a398-43e3198acac9",
+			"entryPath": "/maps/|uniqueid|/Background",
+			"contents": [
+				{
+				    "name": "Background",
+				    "path": "/maps/|uniqueid|/Background",
+				    "nameEditable": false,
+				    "enable": true,
+				    "visible": true,
+				    "displayOrder": 0,
+				    "pathConstraints": "///",
+				    "revision": 1,
+				    "modelId": null,
+				    "@components": [
+				        {
+				            "@type": "MOD.Core.BackgroundComponent",
+				            "SolidColor": {
+				                "r": 0.0,
+				                "g": 0.0,
+				                "b": 0.0,
+				                "a": 1.0
+				            },
+				            "TemplateRUID": "65c4167ea7484196b890022354e5a4a4",
+				            "Type": 2,
+				            "Enable": true
+				        }
+				    ],
+				    "@version": 1
+				}
+			],
+			"miscs": [
+				"MOD.Core.BackgroundComponent"
+			]
+		},
+		{
+			"entryId": "27bca879-4b01-4028-8428-8b6138de5a68",
+			"entryPath": "/maps/|uniqueid|/MapleMapLayer",
+			"contents": [
+				{
+				    "name": "MapleMapLayer",
+				    "path": "/maps/|uniqueid|/MapleMapLayer",
+				    "nameEditable": false,
+				    "enable": true,
+				    "visible": true,
+				    "displayOrder": 1,
+				    "pathConstraints": "///",
+				    "revision": 1,
+				    "origin": {
+				        "type": "Model",
+				        "entry_id": "maplemaplayer",
+				        "sub_entity_id": null
+				    },
+				    "modelId": "maplemaplayer",
+				    "@components": [
+				        {
+				            "@type": "MOD.Core.MapLayerComponent",
+				            "IsVisible": true,
+				            "LayerSortOrder": 0,
+				            "Locked": false,
+				            "MapLayerName": "Layer1",
+				            "Thumbnail": "iVBORw0KGgoAAAANSUhEUgAAACAAAAAYCAYAAACbU/80AAAAJElEQVRIDe3QgQAAAADDoPlTH+SFUGHAgAEDBgwYMGDAwPvAAAwYAAEW1OfkAAAAAElFTkSuQmCC",
+				            "Enable": true
+				        }
+				    ],
+				    "@version": 1
+				}
+			],
+			"miscs": [
+				"MOD.Core.MapLayerComponent"
+			]
+		},
+		{
+			"entryId": "b56a773a-3876-407f-a67f-8fe836ff551c",
+			"entryPath": "/maps/|uniqueid|/TileMap",
+			"contents": [
+				{
+				    "name": "TileMap",
+				    "path": "/maps/|uniqueid|/TileMap",
+				    "nameEditable": false,
+				    "enable": true,
+				    "visible": true,
+				    "displayOrder": 2,
+				    "pathConstraints": "///",
+				    "revision": 1,
+				    "origin": {
+				        "type": "Model",
+				        "entry_id": "tilemap",
+				        "sub_entity_id": null
+				    },
+				    "modelId": "tilemap",
+				    "@components": [
+				        {
+				            "@type": "MOD.Core.TransformComponent",
+				            "Position": {
+				                "x": -0.225,
+				                "y": -0.15,
+				                "z": 1000.0
+				            },
+				            "QuaternionRotation": {
+				                "x": 0.0,
+				                "y": 0.0,
+				                "z": 0.0,
+				                "w": 1.0
+				            },
+				            "Scale": {
+				                "x": 1.0,
+				                "y": 1.0,
+				                "z": 1.0
+				            },
+				            "Enable": true
+				        },
+				        {
+				            "@type": "MOD.Core.TileMapComponent",
+				            "Color": {
+				                "r": 1.0,
+				                "g": 1.0,
+				                "b": 1.0,
+				                "a": 0.0
+				            },
+				            "CreateFoothold": true,
+				            "IncludeFinishFoothold": true,
+				            "IsOddGridPosition": false,
+				            "PhysicsInteractable": false,
+				            "SortingLayer": "MapLayer0",
+				            "TileMapVersion": 1,
+				            "TileSetRUID": {
+				                "DataId": "055a388951174b58826a7868852ad4d0"
+				            },
+				            "Tiles": [],
+				            "Enable": true
+				        }
+				    ],
+				    "@version": 1
+				}
+			],
+			"miscs": [
+				"MOD.Core.TransformComponent",
+				"MOD.Core.TileMapComponent"
+			]
+		},
+		{
+			"entryId": "3784a199-c1f2-4dab-b332-1f67a5c75801",
+			"entryPath": "/maps/|uniqueid|/MigratedMap",
+			"contents": [
+				{
+				    "name": "MigratedMap",
+				    "path": "/maps/|uniqueid|/MigratedMap",
+				    "nameEditable": true,
+				    "enable": true,
+				    "visible": true,
+				    "displayOrder": 3,
+				    "pathConstraints": "///",
+				    "revision": 1,
+				    "modelId": null,
+				    "@components": [
+				        {
+				            "@type": "MOD.Core.TransformComponent",
+				            "Rotation": {
+				                "x": 0.0,
+				                "y": 0.0,
+				                "z": 0.0
+				            },
+				            "Position": {
+				                "x": -0.45,
+				                "y": -3.3,
+				                "z": 0.0
+				            },
+				            "QuaternionRotation": {
+				                "x": 0.0,
+				                "y": 0.0,
+				                "z": 0.0,
+				                "w": 1.0
+				            },
+				            "Scale": {
+				                "x": 1.0,
+				                "y": 1.0,
+				                "z": 1.0
+				            },
+				            "ZRotation": 0.0,
+				            "Enable": true
+				        }
+				    ],
+				    "@version": 1
+				}
+			],
+			"miscs": [
+				"MOD.Core.TransformComponent"
+			]
+		},
+		{
+			"entryId": "5784a199-c1f2-4dab-b332-1f67a5c75801",
+			"entryPath": "/maps/|uniqueid|/MigratedFootholds",
+			"contents": [
+				{
+				    "name": "MigratedFootholds",
+				    "path": "/maps/|uniqueid|/MigratedFootholds",
+				    "nameEditable": true,
+				    "enable": true,
+				    "visible": true,
+				    "displayOrder": 4,
+				    "pathConstraints": "///",
+				    "revision": 1,
+				    "modelId": null,
+				    "@components": [
+				        {
+				            "@type": "MOD.Core.TransformComponent",
+				            "Rotation": {
+				                "x": 0.0,
+				                "y": 0.0,
+				                "z": 0.0
+				            },
+				            "Position": {
+				                "x": -0.45,
+				                "y": -3.3,
+				                "z": 0.0
+				            },
+				            "QuaternionRotation": {
+				                "x": 0.0,
+				                "y": 0.0,
+				                "z": 0.0,
+				                "w": 1.0
+				            },
+				            "Scale": {
+				                "x": 1.0,
+				                "y": 1.0,
+				                "z": 1.0
+				            },
+				            "ZRotation": 0.0,
+				            "Enable": true
+				        }
+				    ],
+				    "@version": 1
+				}
+			],
+			"miscs": [
+				"MOD.Core.TransformComponent"
+			]
+		},
+		{
+			"entryId": "3c18bc3e-3dc0-4319-b544-3a50a8fe20b3",
+			"entryPath": "/maps/|uniqueid|/MigratedRopeLadders",
+			"contents": [
+				{
+				    "name": "MigratedRopeLadders",
+				    "path": "/maps/|uniqueid|/MigratedRopeLadders",
+				    "nameEditable": true,
+				    "enable": true,
+				    "visible": true,
+				    "displayOrder": 5,
+				    "pathConstraints": "///",
+				    "revision": 1,
+				    "modelId": null,
+				    "@components": [],
+				    "@version": 1
+				}
+			],
+			"miscs": [
+			]
+		},
+		{
+			"entryId": "30ddc6d3-00a8-4c1f-af50-35a93dbdefda",
+			"entryPath": "/maps/|uniqueid|/MapleMapLayer_1",
+			"contents": [
+				{
+				    "name": "MapleMapLayer_1",
+				    "path": "/maps/|uniqueid|/MapleMapLayer_1",
+				    "nameEditable": false,
+				    "enable": true,
+				    "visible": true,
+				    "displayOrder": 7,
+				    "pathConstraints": "///",
+				    "revision": 1,
+				    "origin": {
+				        "type": "Model",
+				        "entry_id": "maplemaplayer",
+				        "sub_entity_id": null
+				    },
+				    "modelId": "maplemaplayer",
+				    "@components": [
+				        {
+				            "@type": "MOD.Core.MapLayerComponent",
+				            "IsVisible": true,
+				            "LayerSortOrder": 1,
+				            "Locked": false,
+				            "MapLayerName": "Layer2",
+				            "Thumbnail": null,
+				            "Enable": true
+				        }
+				    ],
+				    "@version": 1
+				}
+			],
+			"miscs": [
+				"MOD.Core.MapLayerComponent"
+			]
+		},
+		{
+			"entryId": "c5726552-e85b-432b-997b-904d7f727fee",
+			"entryPath": "/maps/|uniqueid|/TileMap_1",
+			"contents": [
+				{
+				    "name": "TileMap_1",
+				    "path": "/maps/|uniqueid|/TileMap_1",
+				    "nameEditable": false,
+				    "enable": true,
+				    "visible": true,
+				    "displayOrder": 8,
+				    "pathConstraints": "///",
+				    "revision": 1,
+				    "origin": {
+				        "type": "Model",
+				        "entry_id": "tilemap",
+				        "sub_entity_id": null
+				    },
+				    "modelId": "tilemap",
+				    "@components": [
+				        {
+				            "@type": "MOD.Core.TransformComponent",
+				            "Position": {
+				                "x": -0.225,
+				                "y": -0.15,
+				                "z": 1000.0
+				            },
+				            "QuaternionRotation": {
+				                "x": 0.0,
+				                "y": 0.0,
+				                "z": 0.0,
+				                "w": 1.0
+				            },
+				            "Scale": {
+				                "x": 1.0,
+				                "y": 1.0,
+				                "z": 1.0
+				            },
+				            "Enable": true
+				        },
+				        {
+				            "@type": "MOD.Core.TileMapComponent",
+				            "IsOddGridPosition": false,
+				            "SortingLayer": "MapLayer1",
+				            "TileMapVersion": 1,
+				            "TileSetRUID": {
+				                "DataId": "055a388951174b58826a7868852ad4d0"
+				            },
+				            "Tiles": [],
+				            "Enable": true
+				        }
+				    ],
+				    "@version": 1
+				}
+			],
+			"miscs": [
+				"MOD.Core.TransformComponent",
+				"MOD.Core.TileMapComponent"
+			]
+		},
+		{
+			"entryId": "d9ce043c-bc92-48c9-9015-aa2fd8722637",
+			"entryPath": "/maps/|uniqueid|/MapleMapLayer_2",
+			"contents": [
+				{
+				    "name": "MapleMapLayer_2",
+				    "path": "/maps/|uniqueid|/MapleMapLayer_2",
+				    "nameEditable": false,
+				    "enable": true,
+				    "visible": true,
+				    "displayOrder": 9,
+				    "pathConstraints": "///",
+				    "revision": 1,
+				    "origin": {
+				        "type": "Model",
+				        "entry_id": "maplemaplayer",
+				        "sub_entity_id": null
+				    },
+				    "modelId": "maplemaplayer",
+				    "@components": [
+				        {
+				            "@type": "MOD.Core.MapLayerComponent",
+				            "IsVisible": true,
+				            "LayerSortOrder": 2,
+				            "Locked": false,
+				            "MapLayerName": "Layer3",
+				            "Thumbnail": null,
+				            "Enable": true
+				        }
+				    ],
+				    "@version": 1
+				}
+			],
+			"miscs": [
+				"MOD.Core.MapLayerComponent"
+			]
+		},
+		{
+			"entryId": "12477197-8160-472b-92eb-41e9596bfeb9",
+			"entryPath": "/maps/|uniqueid|/TileMap_2",
+			"contents": [
+				{
+				    "name": "TileMap_2",
+				    "path": "/maps/|uniqueid|/TileMap_2",
+				    "nameEditable": false,
+				    "enable": true,
+				    "visible": true,
+				    "displayOrder": 10,
+				    "pathConstraints": "///",
+				    "revision": 1,
+				    "origin": {
+				        "type": "Model",
+				        "entry_id": "tilemap",
+				        "sub_entity_id": null
+				    },
+				    "modelId": "tilemap",
+				    "@components": [
+				        {
+				            "@type": "MOD.Core.TransformComponent",
+				            "Position": {
+				                "x": -0.225,
+				                "y": -0.15,
+				                "z": 1000.0
+				            },
+				            "QuaternionRotation": {
+				                "x": 0.0,
+				                "y": 0.0,
+				                "z": 0.0,
+				                "w": 1.0
+				            },
+				            "Scale": {
+				                "x": 1.0,
+				                "y": 1.0,
+				                "z": 1.0
+				            },
+				            "Enable": true
+				        },
+				        {
+				            "@type": "MOD.Core.TileMapComponent",
+				            "IsOddGridPosition": false,
+				            "SortingLayer": "MapLayer2",
+				            "TileMapVersion": 1,
+				            "TileSetRUID": {
+				                "DataId": "055a388951174b58826a7868852ad4d0"
+				            },
+				            "Tiles": [],
+				            "Enable": true
+				        }
+				    ],
+				    "@version": 1
+				}
+			],
+			"miscs": [
+				"MOD.Core.TransformComponent",
+				"MOD.Core.TileMapComponent"
+			]
+		},
+		{
+			"entryId": "7f86a4d6-f537-4d96-ad10-4035d4587837",
+			"entryPath": "/maps/|uniqueid|/MapleMapLayer_3",
+			"contents": [
+				{
+				    "name": "MapleMapLayer_3",
+				    "path": "/maps/|uniqueid|/MapleMapLayer_3",
+				    "nameEditable": false,
+				    "enable": true,
+				    "visible": true,
+				    "displayOrder": 11,
+				    "pathConstraints": "///",
+				    "revision": 1,
+				    "origin": {
+				        "type": "Model",
+				        "entry_id": "maplemaplayer",
+				        "sub_entity_id": null
+				    },
+				    "modelId": "maplemaplayer",
+				    "@components": [
+				        {
+				            "@type": "MOD.Core.MapLayerComponent",
+				            "IsVisible": true,
+				            "LayerSortOrder": 3,
+				            "Locked": false,
+				            "MapLayerName": "Layer4",
+				            "Thumbnail": "iVBORw0KGgoAAAANSUhEUgAAACAAAAAYCAYAAACbU/80AAAAJElEQVRIDe3QgQAAAADDoPlTH+SFUGHAgAEDBgwYMGDAwPvAAAwYAAEW1OfkAAAAAElFTkSuQmCC",
+				            "Enable": true
+				        }
+				    ],
+				    "@version": 1
+				}
+			],
+			"miscs": [
+				"MOD.Core.MapLayerComponent"
+			]
+		},
+		{
+			"entryId": "9a34e6d2-aea8-4f69-b013-2a132901e0ed",
+			"entryPath": "/maps/|uniqueid|/TileMap_3",
+			"contents": [
+				{
+				    "name": "TileMap_3",
+				    "path": "/maps/|uniqueid|/TileMap_3",
+				    "nameEditable": false,
+				    "enable": true,
+				    "visible": true,
+				    "displayOrder": 12,
+				    "pathConstraints": "///",
+				    "revision": 1,
+				    "origin": {
+				        "type": "Model",
+				        "entry_id": "tilemap",
+				        "sub_entity_id": null
+				    },
+				    "modelId": "tilemap",
+				    "@components": [
+				        {
+				            "@type": "MOD.Core.TransformComponent",
+				            "Position": {
+				                "x": -0.225,
+				                "y": -0.15,
+				                "z": 1000.0
+				            },
+				            "QuaternionRotation": {
+				                "x": 0.0,
+				                "y": 0.0,
+				                "z": 0.0,
+				                "w": 1.0
+				            },
+				            "Scale": {
+				                "x": 1.0,
+				                "y": 1.0,
+				                "z": 1.0
+				            },
+				            "Enable": true
+				        },
+				        {
+				            "@type": "MOD.Core.TileMapComponent",
+				            "IsOddGridPosition": false,
+				            "SortingLayer": "MapLayer3",
+				            "TileMapVersion": 1,
+				            "TileSetRUID": {
+				                "DataId": "055a388951174b58826a7868852ad4d0"
+				            },
+				            "Tiles": [],
+				            "Enable": true
+				        }
+				    ],
+				    "@version": 1
+				}
+			],
+			"miscs": [
+				"MOD.Core.TransformComponent",
+				"MOD.Core.TileMapComponent"
+			]
+		},
+		{
+			"entryId": "eeff4d22-0f9d-4a8d-89bb-95a4f243baa7",
+			"entryPath": "/maps/|uniqueid|/MapleMapLayer_4",
+			"contents": [
+				{
+				    "name": "MapleMapLayer_4",
+				    "path": "/maps/|uniqueid|/MapleMapLayer_4",
+				    "nameEditable": false,
+				    "enable": true,
+				    "visible": true,
+				    "displayOrder": 13,
+				    "pathConstraints": "///",
+				    "revision": 1,
+				    "origin": {
+				        "type": "Model",
+				        "entry_id": "maplemaplayer",
+				        "sub_entity_id": null
+				    },
+				    "modelId": "maplemaplayer",
+				    "@components": [
+				        {
+				            "@type": "MOD.Core.MapLayerComponent",
+				            "IsVisible": true,
+				            "LayerSortOrder": 4,
+				            "Locked": false,
+				            "MapLayerName": "Layer5",
+				            "Thumbnail": "iVBORw0KGgoAAAANSUhEUgAAACAAAAAYCAYAAACbU/80AAAAJElEQVRIDe3QgQAAAADDoPlTH+SFUGHAgAEDBgwYMGDAwPvAAAwYAAEW1OfkAAAAAElFTkSuQmCC",
+				            "Enable": true
+				        }
+				    ],
+				    "@version": 1
+				}
+			],
+			"miscs": [
+				"MOD.Core.MapLayerComponent"
+			]
+		},
+		{
+			"entryId": "92cb9a1e-fff9-4fdd-b498-4d8b4f883eea",
+			"entryPath": "/maps/|uniqueid|/TileMap_4",
+			"contents": [
+				{
+				    "name": "TileMap_4",
+				    "path": "/maps/|uniqueid|/TileMap_4",
+				    "nameEditable": false,
+				    "enable": true,
+				    "visible": true,
+				    "displayOrder": 14,
+				    "pathConstraints": "///",
+				    "revision": 1,
+				    "origin": {
+				        "type": "Model",
+				        "entry_id": "tilemap",
+				        "sub_entity_id": null
+				    },
+				    "modelId": "tilemap",
+				    "@components": [
+				        {
+				            "@type": "MOD.Core.TransformComponent",
+				            "Position": {
+				                "x": -0.225,
+				                "y": -0.15,
+				                "z": 1000.0
+				            },
+				            "QuaternionRotation": {
+				                "x": 0.0,
+				                "y": 0.0,
+				                "z": 0.0,
+				                "w": 1.0
+				            },
+				            "Scale": {
+				                "x": 1.0,
+				                "y": 1.0,
+				                "z": 1.0
+				            },
+				            "Enable": true
+				        },
+				        {
+				            "@type": "MOD.Core.TileMapComponent",
+				            "IsOddGridPosition": false,
+				            "SortingLayer": "MapLayer4",
+				            "TileMapVersion": 1,
+				            "TileSetRUID": {
+				                "DataId": "055a388951174b58826a7868852ad4d0"
+				            },
+				            "Tiles": [],
+				            "Enable": true
+				        }
+				    ],
+				    "@version": 1
+				}
+			],
+			"miscs": [
+				"MOD.Core.TransformComponent",
+				"MOD.Core.TileMapComponent"
+			]
+		},
+		{
+			"entryId": "807e9a6a-6ec9-4cf4-b09d-c8d39a5fd77c",
+			"entryPath": "/maps/|uniqueid|/MapleMapLayer_5",
+			"contents": [
+				{
+				    "name": "MapleMapLayer_5",
+				    "path": "/maps/|uniqueid|/MapleMapLayer_5",
+				    "nameEditable": false,
+				    "enable": true,
+				    "visible": true,
+				    "displayOrder": 15,
+				    "pathConstraints": "///",
+				    "revision": 1,
+				    "origin": {
+				        "type": "Model",
+				        "entry_id": "maplemaplayer",
+				        "sub_entity_id": null
+				    },
+				    "modelId": "maplemaplayer",
+				    "@components": [
+				        {
+				            "@type": "MOD.Core.MapLayerComponent",
+				            "IsVisible": true,
+				            "LayerSortOrder": 5,
+				            "Locked": false,
+				            "MapLayerName": "Layer6",
+				            "Thumbnail": "iVBORw0KGgoAAAANSUhEUgAAACAAAAAYCAYAAACbU/80AAAAJElEQVRIDe3QgQAAAADDoPlTH+SFUGHAgAEDBgwYMGDAwPvAAAwYAAEW1OfkAAAAAElFTkSuQmCC",
+				            "Enable": true
+				        }
+				    ],
+				    "@version": 1
+				}
+			],
+			"miscs": [
+				"MOD.Core.MapLayerComponent"
+			]
+		},
+		{
+			"entryId": "07854a04-9fed-42b4-984d-aa4d08b487ad",
+			"entryPath": "/maps/|uniqueid|/TileMap_5",
+			"contents": [
+				{
+				    "name": "TileMap_5",
+				    "path": "/maps/|uniqueid|/TileMap_5",
+				    "nameEditable": false,
+				    "enable": true,
+				    "visible": true,
+				    "displayOrder": 16,
+				    "pathConstraints": "///",
+				    "revision": 1,
+				    "origin": {
+				        "type": "Model",
+				        "entry_id": "tilemap",
+				        "sub_entity_id": null
+				    },
+				    "modelId": "tilemap",
+				    "@components": [
+				        {
+				            "@type": "MOD.Core.TransformComponent",
+				            "Position": {
+				                "x": -0.225,
+				                "y": -0.15,
+				                "z": 1000.0
+				            },
+				            "QuaternionRotation": {
+				                "x": 0.0,
+				                "y": 0.0,
+				                "z": 0.0,
+				                "w": 1.0
+				            },
+				            "Scale": {
+				                "x": 1.0,
+				                "y": 1.0,
+				                "z": 1.0
+				            },
+				            "Enable": true
+				        },
+				        {
+				            "@type": "MOD.Core.TileMapComponent",
+				            "IsOddGridPosition": false,
+				            "SortingLayer": "MapLayer5",
+				            "TileMapVersion": 1,
+				            "TileSetRUID": {
+				                "DataId": "055a388951174b58826a7868852ad4d0"
+				            },
+				            "Tiles": [],
+				            "Enable": true
+				        }
+				    ],
+				    "@version": 1
+				}
+			],
+			"miscs": [
+				"MOD.Core.TransformComponent",
+				"MOD.Core.TileMapComponent"
+			]
+		},
+		{
+			"entryId": "50749811-4289-410a-9a22-40cb85f8dda3",
+			"entryPath": "/maps/|uniqueid|/MapleMapLayer_6",
+			"contents": [
+				{
+				    "name": "MapleMapLayer_6",
+				    "path": "/maps/|uniqueid|/MapleMapLayer_6",
+				    "nameEditable": false,
+				    "enable": true,
+				    "visible": true,
+				    "displayOrder": 17,
+				    "pathConstraints": "///",
+				    "revision": 1,
+				    "origin": {
+				        "type": "Model",
+				        "entry_id": "maplemaplayer",
+				        "sub_entity_id": null
+				    },
+				    "modelId": "maplemaplayer",
+				    "@components": [
+				        {
+				            "@type": "MOD.Core.MapLayerComponent",
+				            "IsVisible": true,
+				            "LayerSortOrder": 6,
+				            "Locked": false,
+				            "MapLayerName": "Layer7",
+				            "Thumbnail": "iVBORw0KGgoAAAANSUhEUgAAACAAAAAYCAYAAACbU/80AAAAJElEQVRIDe3QgQAAAADDoPlTH+SFUGHAgAEDBgwYMGDAwPvAAAwYAAEW1OfkAAAAAElFTkSuQmCC",
+				            "Enable": true
+				        }
+				    ],
+				    "@version": 1
+				}
+			],
+			"miscs": [
+				"MOD.Core.MapLayerComponent"
+			]
+		},
+		{
+			"entryId": "286ea2a7-e09a-4b66-9b53-3e0dbf4ef622",
+			"entryPath": "/maps/|uniqueid|/TileMap_6",
+			"contents": [
+				{
+				    "name": "TileMap_6",
+				    "path": "/maps/|uniqueid|/TileMap_6",
+				    "nameEditable": false,
+				    "enable": true,
+				    "visible": true,
+				    "displayOrder": 18,
+				    "pathConstraints": "///",
+				    "revision": 1,
+				    "origin": {
+				        "type": "Model",
+				        "entry_id": "tilemap",
+				        "sub_entity_id": null
+				    },
+				    "modelId": "tilemap",
+				    "@components": [
+				        {
+				            "@type": "MOD.Core.TransformComponent",
+				            "Position": {
+				                "x": -0.225,
+				                "y": -0.15,
+				                "z": 1000.0
+				            },
+				            "QuaternionRotation": {
+				                "x": 0.0,
+				                "y": 0.0,
+				                "z": 0.0,
+				                "w": 1.0
+				            },
+				            "Scale": {
+				                "x": 1.0,
+				                "y": 1.0,
+				                "z": 1.0
+				            },
+				            "Enable": true
+				        },
+				        {
+				            "@type": "MOD.Core.TileMapComponent",
+				            "IsOddGridPosition": false,
+				            "SortingLayer": "MapLayer6",
+				            "TileMapVersion": 1,
+				            "TileSetRUID": {
+				                "DataId": "055a388951174b58826a7868852ad4d0"
+				            },
+				            "Tiles": [],
+				            "Enable": true
+				        }
+				    ],
+				    "@version": 1
+				}
+			],
+			"miscs": [
+				"MOD.Core.TransformComponent",
+				"MOD.Core.TileMapComponent"
+			]
+		},
+		{
+			"entryId": "8a06af9b-c5c6-4089-8602-4e31af28b6bc",
+			"entryPath": "/maps/|uniqueid|/MapleMapLayer_7",
+			"contents": [
+				{
+				    "name": "MapleMapLayer_7",
+				    "path": "/maps/|uniqueid|/MapleMapLayer_7",
+				    "nameEditable": false,
+				    "enable": true,
+				    "visible": true,
+				    "displayOrder": 19,
+				    "pathConstraints": "///",
+				    "revision": 1,
+				    "origin": {
+				        "type": "Model",
+				        "entry_id": "maplemaplayer",
+				        "sub_entity_id": null
+				    },
+				    "modelId": "maplemaplayer",
+				    "@components": [
+				        {
+				            "@type": "MOD.Core.MapLayerComponent",
+				            "IsVisible": true,
+				            "LayerSortOrder": 7,
+				            "Locked": false,
+				            "MapLayerName": "Layer8",
+				            "Thumbnail": "iVBORw0KGgoAAAANSUhEUgAAACAAAAAYCAYAAACbU/80AAAAJElEQVRIDe3QgQAAAADDoPlTH+SFUGHAgAEDBgwYMGDAwPvAAAwYAAEW1OfkAAAAAElFTkSuQmCC",
+				            "Enable": true
+				        }
+				    ],
+				    "@version": 1
+				}
+			],
+			"miscs": [
+				"MOD.Core.MapLayerComponent"
+			]
+		},
+		{
+			"entryId": "faa90db6-d9e4-4b21-a1f1-a52c1165028c",
+			"entryPath": "/maps/|uniqueid|/TileMap_7",
+			"contents": [
+				{
+				    "name": "TileMap_7",
+				    "path": "/maps/|uniqueid|/TileMap_7",
+				    "nameEditable": false,
+				    "enable": true,
+				    "visible": true,
+				    "displayOrder": 20,
+				    "pathConstraints": "///",
+				    "revision": 1,
+				    "origin": {
+				        "type": "Model",
+				        "entry_id": "tilemap",
+				        "sub_entity_id": null
+				    },
+				    "modelId": "tilemap",
+				    "@components": [
+				        {
+				            "@type": "MOD.Core.TransformComponent",
+				            "Position": {
+				                "x": -0.225,
+				                "y": -0.15,
+				                "z": 1000.0
+				            },
+				            "QuaternionRotation": {
+				                "x": 0.0,
+				                "y": 0.0,
+				                "z": 0.0,
+				                "w": 1.0
+				            },
+				            "Scale": {
+				                "x": 1.0,
+				                "y": 1.0,
+				                "z": 1.0
+				            },
+				            "Enable": true
+				        },
+				        {
+				            "@type": "MOD.Core.TileMapComponent",
+				            "IsOddGridPosition": false,
+				            "SortingLayer": "MapLayer7",
+				            "TileMapVersion": 1,
+				            "TileSetRUID": {
+				                "DataId": "055a388951174b58826a7868852ad4d0"
+				            },
+				            "Tiles": [],
+				            "Enable": true
+				        }
+				    ],
+				    "@version": 1
+				}
+			],
+			"miscs": [
+				"MOD.Core.TransformComponent",
+				"MOD.Core.TileMapComponent"
+			]
+		},
+		{
+			"entryId": "7841603d-5bf7-4a59-8c31-ffad7d4a7f57",
+			"entryPath": "/maps/|uniqueid|/MapleMapLayer_8",
+			"contents": [
+				{
+				    "name": "MapleMapLayer_8",
+				    "path": "/maps/|uniqueid|/MapleMapLayer_8",
+				    "nameEditable": false,
+				    "enable": true,
+				    "visible": true,
+				    "displayOrder": 21,
+				    "pathConstraints": "///",
+				    "revision": 1,
+				    "origin": {
+				        "type": "Model",
+				        "entry_id": "maplemaplayer",
+				        "sub_entity_id": null
+				    },
+				    "modelId": "maplemaplayer",
+				    "@components": [
+				        {
+				            "@type": "MOD.Core.MapLayerComponent",
+				            "IsVisible": true,
+				            "LayerSortOrder": 8,
+				            "Locked": false,
+				            "MapLayerName": "Layer9",
+				            "Thumbnail": "iVBORw0KGgoAAAANSUhEUgAAACAAAAAYCAYAAACbU/80AAAAJElEQVRIDe3QgQAAAADDoPlTH+SFUGHAgAEDBgwYMGDAwPvAAAwYAAEW1OfkAAAAAElFTkSuQmCC",
+				            "Enable": true
+				        }
+				    ],
+				    "@version": 1
+				}
+			],
+			"miscs": [
+				"MOD.Core.MapLayerComponent"
+			]
+		},
+		{
+			"entryId": "8d3f0660-ebb4-4d62-8c20-add027d89301",
+			"entryPath": "/maps/|uniqueid|/TileMap_8",
+			"contents": [
+				{
+				    "name": "TileMap_8",
+				    "path": "/maps/|uniqueid|/TileMap_8",
+				    "nameEditable": false,
+				    "enable": true,
+				    "visible": true,
+				    "displayOrder": 22,
+				    "pathConstraints": "///",
+				    "revision": 1,
+				    "origin": {
+				        "type": "Model",
+				        "entry_id": "tilemap",
+				        "sub_entity_id": null
+				    },
+				    "modelId": "tilemap",
+				    "@components": [
+				        {
+				            "@type": "MOD.Core.TransformComponent",
+				            "Position": {
+				                "x": -0.225,
+				                "y": -0.15,
+				                "z": 1000.0
+				            },
+				            "QuaternionRotation": {
+				                "x": 0.0,
+				                "y": 0.0,
+				                "z": 0.0,
+				                "w": 1.0
+				            },
+				            "Scale": {
+				                "x": 1.0,
+				                "y": 1.0,
+				                "z": 1.0
+				            },
+				            "Enable": true
+				        },
+				        {
+				            "@type": "MOD.Core.TileMapComponent",
+				            "IsOddGridPosition": false,
+				            "SortingLayer": "MapLayer8",
+				            "TileMapVersion": 1,
+				            "TileSetRUID": {
+				                "DataId": "055a388951174b58826a7868852ad4d0"
+				            },
+				            "Tiles": [],
+				            "Enable": true
+				        }
+				    ],
+				    "@version": 1
+				}
+			],
+			"miscs": [
+				"MOD.Core.TransformComponent",
+				"MOD.Core.TileMapComponent"
+			]
+		},
+		{
+			"entryId": "6b67fd7b-c884-4a14-9c40-16712a03478c",
+			"entryPath": "/maps/|uniqueid|/MapleMapLayer_9",
+			"contents": [
+				{
+				    "name": "MapleMapLayer_9",
+				    "path": "/maps/|uniqueid|/MapleMapLayer_9",
+				    "nameEditable": false,
+				    "enable": true,
+				    "visible": true,
+				    "displayOrder": 23,
+				    "pathConstraints": "///",
+				    "revision": 1,
+				    "origin": {
+				        "type": "Model",
+				        "entry_id": "maplemaplayer",
+				        "sub_entity_id": null
+				    },
+				    "modelId": "maplemaplayer",
+				    "@components": [
+				        {
+				            "@type": "MOD.Core.MapLayerComponent",
+				            "IsVisible": true,
+				            "LayerSortOrder": 9,
+				            "Locked": false,
+				            "MapLayerName": "Layer10",
+				            "Thumbnail": "iVBORw0KGgoAAAANSUhEUgAAACAAAAAYCAYAAACbU/80AAAAJElEQVRIDe3QgQAAAADDoPlTH+SFUGHAgAEDBgwYMGDAwPvAAAwYAAEW1OfkAAAAAElFTkSuQmCC",
+				            "Enable": true
+				        }
+				    ],
+				    "@version": 1
+				}
+			],
+			"miscs": [
+				"MOD.Core.MapLayerComponent"
+			]
+		},
+		{
+			"entryId": "9d34b47a-e362-4d35-b382-3d095c412914",
+			"entryPath": "/maps/|uniqueid|/TileMap_9",
+			"contents": [
+				{
+				    "name": "TileMap_9",
+				    "path": "/maps/|uniqueid|/TileMap_9",
+				    "nameEditable": false,
+				    "enable": true,
+				    "visible": true,
+				    "displayOrder": 24,
+				    "pathConstraints": "///",
+				    "revision": 1,
+				    "origin": {
+				        "type": "Model",
+				        "entry_id": "tilemap",
+				        "sub_entity_id": null
+				    },
+				    "modelId": "tilemap",
+				    "@components": [
+				        {
+				            "@type": "MOD.Core.TransformComponent",
+				            "Position": {
+				                "x": -0.225,
+				                "y": -0.15,
+				                "z": 1000.0
+				            },
+				            "QuaternionRotation": {
+				                "x": 0.0,
+				                "y": 0.0,
+				                "z": 0.0,
+				                "w": 1.0
+				            },
+				            "Scale": {
+				                "x": 1.0,
+				                "y": 1.0,
+				                "z": 1.0
+				            },
+				            "Enable": true
+				        },
+				        {
+				            "@type": "MOD.Core.TileMapComponent",
+				            "IsOddGridPosition": false,
+				            "SortingLayer": "MapLayer9",
+				            "TileMapVersion": 1,
+				            "TileSetRUID": {
+				                "DataId": "055a388951174b58826a7868852ad4d0"
+				            },
+				            "Tiles": [],
+				            "Enable": true
+				        }
+				    ],
+				    "@version": 1
+				}
+			],
+			"miscs": [
+				"MOD.Core.TransformComponent",
+				"MOD.Core.TileMapComponent"
+			]
+		}
+	]
+}

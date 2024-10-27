@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSWMapConverterLib", "MSWMapConverterLib\MSWMapConverterLib.csproj", "{E4E0E9CA-6572-495C-ADED-66E9C7593AF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSWMapConverterGUI", "MSWMapConverterGUI\MSWMapConverterGUI.csproj", "{C8BA5271-A0BA-4C8F-873C-6D4357DEC318}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E4E0E9CA-6572-495C-ADED-66E9C7593AF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4E0E9CA-6572-495C-ADED-66E9C7593AF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4E0E9CA-6572-495C-ADED-66E9C7593AF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4E0E9CA-6572-495C-ADED-66E9C7593AF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8BA5271-A0BA-4C8F-873C-6D4357DEC318}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8BA5271-A0BA-4C8F-873C-6D4357DEC318}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8BA5271-A0BA-4C8F-873C-6D4357DEC318}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8BA5271-A0BA-4C8F-873C-6D4357DEC318}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CCCDD9E6-F31D-47E2-B3B6-158792955A52}
+	EndGlobalSection
+EndGlobal
