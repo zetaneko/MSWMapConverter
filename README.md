@@ -29,8 +29,9 @@ This project provides a GUI interface that allows users to select multiple maps 
    - Select your desired MapleStory region.
    - Choose multiple maps to convert.
    - Begin the conversion process.
+4. **Repackage .mod file**: Re-package your .mod folder back into a .mod file with ShortSwordSlicer.
 
-Upon completion, your selected maps, now in MapleStory Worlds format, will be stored in the specified `.mod` folder.
+Upon completion, your selected maps, now in MapleStory Worlds format, will be saved in the specified `.mod` file.
 
 ## Limitations
 
