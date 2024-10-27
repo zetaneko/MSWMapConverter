@@ -107,6 +107,113 @@ namespace MSWMapConverterLib
 
                 if (layerName == "0" || layerName == "1" || layerName == "2" || layerName == "3" || layerName == "4" || layerName == "5" || layerName == "6" || layerName == "7" || layerName == "8" || layerName == "9" || layerName == "10")
                 {
+                    var objectsToSort = new List<ObjectToSort>();
+
+                    foreach (XmlNode obj in layer.SelectNodes("imgdir[3]/imgdir"))
+                    {
+                        var objType = obj.ChildNodes[0].Attributes["value"].Value;
+                        if (obj.HasChildNodes && objType != "connect")
+                        {
+
+                            double x = 0, y = 0, dO = 0;
+                            string l0 = "", l1 = "", l2 = "";
+
+                            foreach (XmlNode node in obj.ChildNodes)
+                            {
+                                switch (node.Attributes["name"].Value)
+                                {
+                                    case "x":
+                                        x = double.Parse(node.Attributes["value"].Value);
+                                        break;
+                                    case "y":
+                                        y = double.Parse(node.Attributes["value"].Value);
+                                        break;
+                                    case "l0":
+                                        l0 = node.Attributes["value"].Value;
+                                        break;
+                                    case "l1":
+                                        l1 = node.Attributes["value"].Value;
+                                        break;
+                                    case "l2":
+                                        l2 = node.Attributes["value"].Value;
+                                        break;
+                                    case "z":
+                                        dO = double.Parse(node.Attributes["value"].Value);
+                                        break;
+                                }
+                            }
+
+                            XmlDocument objInfo = new XmlDocument();
+                            objInfo.Load($@"{wzExtractPath}\Map.wz\Obj\{objType}.img.xml");
+
+                            foreach (XmlNode l0Type in objInfo.SelectNodes("//imgdir[@name='" + l0 + "']"))
+                            {
+                                if (l0Type.Attributes["name"].Value == l0)
+                                {
+                                    foreach (XmlNode l1Type in l0Type.ChildNodes)
+                                    {
+                                        if (l1Type.Attributes["name"].Value == l1)
+                                        {
+                                            foreach (XmlNode l2Type in l1Type.ChildNodes)
+                                            {
+                                                if (l2Type.Attributes["name"].Value == l2)
+                                                {
+                                                    foreach (XmlNode canvas in l2Type.SelectNodes("canvas"))
+                                                    {
+                                                        double canvasX = double.Parse(canvas["vector"].Attributes["x"].Value);
+                                                        double canvasY = double.Parse(canvas["vector"].Attributes["y"].Value);
+
+                                                        x -= canvasX;
+                                                        y -= canvasY;
+
+                                                        y += double.Parse(canvas.Attributes["height"].Value) / 2;
+                                                        x += double.Parse(canvas.Attributes["width"].Value) / 2;
+
+                                                        //double vectorX = double.Parse(vector.Attributes["x"].Value);
+                                                        //x -= vectorX;
+
+                                                        break;
+                                                    }
+                                                    break;
+                                                }
+                                            }
+                                            break;
+                                        }
+                                    }
+                                    break;
+                                }
+                            }
+
+                            string recName = $"Obj_{objType}.img_{l0}_{l1}_{l2}_0";
+                            var resourceTile = resourceTileMappings.FirstOrDefault(rt => rt.Name == recName);
+
+                            if (resourceTile != null)
+                            {
+                                var ruid = resourceTile.Ruid;
+                                var mswX = x / 100;
+                                var mswY = -y / 100;
+                                var guid = Guid.NewGuid().ToString();
+                                var thisTileJson = templateTileObjectTxt.Replace("|guid|", guid)
+                                                                       .Replace("|uniqueName|", $"obj{layerName}-{obj.Attributes["name"].Value}")
+                                                                       .Replace("|ruid|", ruid)
+                                                                       .Replace("|mswX|", mswX.ToString())
+                                                                       .Replace("|mswY|", mswY.ToString())
+                                                                       .Replace("|mapIdentifier|", mapIdentifier)
+                                                                       .Replace("|layer|", layerName)
+                                                                       .Replace("|do|", dO.ToString());
+
+                                var thisTileObj = JsonConvert.DeserializeObject<JToken>(thisTileJson);
+
+                                objectsToSort.Add(new ObjectToSort { DisplayOrder = dO, Object = thisTileObj });
+                            }
+                        }
+                    }
+
+                    foreach (var objToSort in objectsToSort.OrderBy(o => o.DisplayOrder))
+                    {
+                        ((JArray)mswMapJson["contents"]).Add(objToSort.Object);
+                    }
+
                     // Assuming first imgdir child directly under the layer node:
                     var info = layer.FirstChild;
 
@@ -123,12 +230,14 @@ namespace MSWMapConverterLib
                         }
                     }
 
+                    var sortedTiles = new List<ObjectToSort>();
+
                     foreach (XmlNode tile in layer.SelectNodes("imgdir[2]/imgdir"))
                     {
-                        double x = 0, y = 0, no = 0, zM = 0, dO = 0;
+                        double x = 0, y = 0, no = 0, zM = 0;
                         string u = "";
 
-                        dO = double.Parse(tile.Attributes["name"].Value);
+                        int dO = int.Parse(tile.Attributes["name"].Value);
 
                         foreach (XmlNode node in tile.ChildNodes)
                         {
@@ -187,12 +296,18 @@ namespace MSWMapConverterLib
                                                                    .Replace("|mswX|", mswX.ToString())
                                                                    .Replace("|mswY|", mswY.ToString())
                                                                    .Replace("|mapIdentifier|", mapIdentifier)
+                                                                   .Replace("|layer|", layerName)
                                                                    .Replace("|do|", dO.ToString());
 
-                            var thisTileObj = JsonConvert.DeserializeObject(thisTileJson);
+                            JToken thisTileObj = JsonConvert.DeserializeObject<JToken>(thisTileJson);
 
-                            ((JArray)mswMapJson["contents"]).Add(thisTileObj);
+                            sortedTiles.Add(new ObjectToSort { DisplayOrder = zM, Object = thisTileObj });
                         }
+                    }
+
+                    foreach (var item in sortedTiles.OrderBy(i => i.DisplayOrder))
+                    {
+                        ((JArray)mswMapJson["contents"]).Add(item.Object);
                     }
 
                     foreach (XmlNode connect in layer.SelectNodes("imgdir[3]/imgdir"))
@@ -288,6 +403,7 @@ namespace MSWMapConverterLib
                                                                        .Replace("|mswX|", mswX.ToString())
                                                                        .Replace("|mswY|", mswY.ToString())
                                                                        .Replace("|mapIdentifier|", mapIdentifier)
+                                                                       .Replace("|layer|", layerName)
                                                                        .Replace("|do|", dO.ToString());
 
                                 var thisTileObj = JsonConvert.DeserializeObject(thisTileJson);
@@ -437,5 +553,17 @@ namespace MSWMapConverterLib
             var mswMapNewFile = JsonConvert.SerializeObject(mswMapJson, Newtonsoft.Json.Formatting.Indented);
             File.WriteAllText(mswMapFilePath, mswMapNewFile);
         }
+    }
+
+    public class ObjectToSort
+    {
+        public double DisplayOrder { get; set; }
+        public JToken Object { get; set; }
+    }
+
+    public class XMLObjectToSort
+    {
+        public double DisplayOrder { get; set; }
+        public XmlNode Object { get; set; }
     }
 }

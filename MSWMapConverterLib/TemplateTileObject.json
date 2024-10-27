@@ -8,7 +8,7 @@
 			"nameEditable": true,
 			"enable": true,
 			"visible": true,
-			"displayOrder": 0,
+			"displayOrder": |do|,
 			"pathConstraints": "////",
 			"revision": 1,
 			"modelId": null,
@@ -21,7 +21,7 @@
 					"SpriteRUID": "|ruid|",
 					"SortingLayer": "MapLayer0",
 					"StartFrameIndex": 0,
-					"OrderInLayer": 2,
+					"OrderInLayer": 0,
 					"Enable": true
 				},
 				{
