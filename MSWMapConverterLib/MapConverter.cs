@@ -339,7 +339,14 @@ namespace MSWMapConverterLib
                         }
 
                         // Center the object
-                        x = x - (xScale / 2) - 0.41;
+                        if (isLadder)
+                        {
+                            x = x - (xScale / 2) + 0.1;
+                        }
+                        else
+                        {
+                            x = x - (xScale / 2) - 0.41;
+                        }
 
                         // Center the object
                         y1 = y1 - (yScale / 2) - 3.3;
