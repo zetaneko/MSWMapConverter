@@ -3625,6 +3625,16 @@
 				                ]
 				            },
 				            "Enable": false
+				        },
+				        {
+				            "@type": "MOD.Core.SoundComponent",
+				            "AudioClipRUID": "|bgmruid|",
+				            "Bgm": true,
+				            "KeepBGM": true,
+				            "Loop": true,
+				            "PlayOnEnable": true,
+				            "Volume": 1.0,
+				            "Enable": true
 				        }
 				    ],
 				    "@version": 1
@@ -3632,7 +3642,8 @@
 			],
 			"miscs": [
 				"MOD.Core.MapComponent",
-				"MOD.Core.FootholdComponent"
+				"MOD.Core.FootholdComponent",
+				"MOD.Core.SoundComponent"
 			]
 		},
 		{

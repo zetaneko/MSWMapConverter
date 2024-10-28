@@ -60,6 +60,13 @@ namespace MSWMapConverterLib
                                            .Select(values => new { Ruid = values[0].Replace("\"", ""), Name = values[1].Replace("\"", "") })
                                            .ToList();
 
+            // Load CSV file (this example uses LINQ to parse CSV, but you may want to use a CSV library like CsvHelper)
+            var musicMappings = File.ReadLines(@"MusicMappings.csv")
+                                           .Skip(1)
+                                           .Select(line => line.Split(','))
+                                           .Select(values => new { Ruid = values[0].Replace("\"", ""), Name = values[1].Replace("\"", "") })
+                                           .ToList();
+
             // Load JSON template
             var templateTileObjectTxt = File.ReadAllText(Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), @"TemplateTileObject.json"));
 
@@ -74,8 +81,28 @@ namespace MSWMapConverterLib
 
             var mapIdentifier = $"Map-{regionId}-{mapId}";
 
+            // Load and parse XML
+            XmlDocument xmlDocument = new XmlDocument();
+            xmlDocument.Load($@"{wzExtractPath}\Map.wz\Map\Map{regionId}\{mapId}.img.xml");
+
+            var bgmRuid = "";
+
+            foreach (XmlNode infoRoot in xmlDocument.SelectNodes("//imgdir[@name='info']"))
+            {
+                foreach (XmlNode section in infoRoot.ChildNodes)
+                {
+                    if (section.Attributes["name"].Value == "bgm")
+                    {
+                        bgmRuid = musicMappings.FirstOrDefault(rt => rt.Name == section.Attributes["value"].Value.ToLower().Replace("/", "_")).Ruid;
+                    }
+                }
+
+                break; // Break after the first foothold node
+            }
+
             templateMapObjectTxt = templateMapObjectTxt.Replace("|guid|", Guid.NewGuid().ToString())
                                                                    .Replace("|uniqueid|", mapIdentifier)
+                                                                   .Replace("|bgmruid|", bgmRuid)
                                                                    .Replace("|name|", mapIdentifier);
 
             File.WriteAllText(mswMapFilePath, templateMapObjectTxt);
@@ -96,10 +123,6 @@ namespace MSWMapConverterLib
             {
                 item["entryId"] = Guid.NewGuid().ToString();
             }
-
-            // Load and parse XML
-            XmlDocument xmlDocument = new XmlDocument();
-            xmlDocument.Load($@"{wzExtractPath}\Map.wz\Map\Map{regionId}\{mapId}.img.xml");
 
             foreach (XmlNode layer in xmlDocument.ChildNodes[1].ChildNodes)
             {
@@ -504,7 +527,6 @@ namespace MSWMapConverterLib
 
 
             // Process foothold section
-
             foreach (XmlNode footholdRoot in xmlDocument.SelectNodes("//imgdir[@name='foothold']"))
             {
                 foreach (XmlNode section in footholdRoot.SelectNodes("imgdir"))

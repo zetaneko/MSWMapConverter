@@ -11,6 +11,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="MusicMappings.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="ResourceTileMappings.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
