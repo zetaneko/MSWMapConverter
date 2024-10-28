@@ -41,7 +41,11 @@ namespace MSWMapConverterGUI
 
             if (!File.Exists(xmlFilePath))
             {
-                MessageBox.Show("Map.img.xml not found", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+                logDetails.AppendText("Map.img.xml not found. Please specify WZ folder path with correct contents." + Environment.NewLine);
+                logDetails.SelectionStart = logDetails.Text.Length;
+                logDetails.ScrollToCaret();
+
                 return;
             }
 
@@ -91,7 +95,9 @@ namespace MSWMapConverterGUI
                     // Check if the required subfolder exists in the selected directory
                     if (Directory.Exists(Path.Combine(selectedPath, requiredSubfolder)))
                     {
-                        MessageBox.Show("Folder contents validated.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        logDetails.AppendText("MSW Folder contents validated." + Environment.NewLine);
+                        logDetails.SelectionStart = logDetails.Text.Length;
+                        logDetails.ScrollToCaret();
                         mswPathTB.Text = selectedPath; // Set the TextBox text to the full path of the folder
                         SaveConfiguration();
                     }
@@ -123,9 +129,12 @@ namespace MSWMapConverterGUI
                     // Check if the required subfolder exists in the selected directory
                     if (Directory.Exists(Path.Combine(selectedPath, requiredSubfolder)) && Directory.Exists(Path.Combine(selectedPath, requiredSubfolder2)))
                     {
-                        MessageBox.Show("Folder contents validated.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        logDetails.AppendText("WZ Folder contents validated." + Environment.NewLine);
+                        logDetails.SelectionStart = logDetails.Text.Length;
+                        logDetails.ScrollToCaret();
                         WZFolderPathTB.Text = selectedPath; // Set the TextBox text to the full path of the folder
                         SaveConfiguration();
+                        InitializeRegions();
                     }
                     else
                     {
@@ -243,7 +252,9 @@ namespace MSWMapConverterGUI
             }
 
             conversionStatusLabel.Text = "Conversion Complete!";
-            MessageBox.Show("All selected items have been converted.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            logDetails.AppendText("All selected items have been converted." + Environment.NewLine);
+            logDetails.SelectionStart = logDetails.Text.Length;
+            logDetails.ScrollToCaret();
 
             // Re-enable UI elements after conversion is complete
             convertBtn.Enabled = true;

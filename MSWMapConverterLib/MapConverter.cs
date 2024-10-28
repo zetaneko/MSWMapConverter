@@ -225,7 +225,7 @@ namespace MSWMapConverterLib
                         if (child.Attributes["name"].Value == "tS")
                         {
                             tileType = child.Attributes["value"].Value;
-                            tileSetInfo.Load($@"C:\MapleRoyals\MapExtract\Map.wz\Tile\{tileType}.img.xml");
+                            tileSetInfo.Load($@"{wzExtractPath}\Map.wz\Tile\{tileType}.img.xml");
                             break;
                         }
                     }
