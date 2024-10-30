@@ -4,6 +4,7 @@ using System;
 using System.IO;
 using System.Reflection;
 using System.Xml;
+using System.Drawing;
 
 namespace MSWMapConverterLib
 {
@@ -24,6 +25,51 @@ namespace MSWMapConverterLib
             }
 
             return regions;
+        }
+
+        bool IsPrime(int number)
+        {
+            if (number <= 1) return false;
+
+            if (number % 2 == 0) return false;
+
+            for (int i = 3; i <= Math.Sqrt(number); i += 2)
+            {
+                if (number % i == 0) return false;
+            }
+
+            return true;
+        }
+
+        public (double x, double y) ConvertToWorldCoordinates(XmlNode itemNode, XmlNode canvasNode)
+        {
+            // Extracting x and y values from the item node
+            int itemX = int.Parse(itemNode.SelectSingleNode("int[@name='x']").Attributes["value"].Value);
+            int itemY = int.Parse(itemNode.SelectSingleNode("int[@name='y']").Attributes["value"].Value);
+
+            // Extracting width and height from the canvas node
+            int width = int.Parse(canvasNode.Attributes["width"].Value);
+            int height = int.Parse(canvasNode.Attributes["height"].Value);
+
+            // Extracting the origin from the canvas node
+            XmlNode originNode = canvasNode.SelectSingleNode("vector[@name='origin']");
+            int originX = int.Parse(originNode.Attributes["x"].Value);
+            int originY = int.Parse(originNode.Attributes["y"].Value);
+
+            // Calculate the offset from the new origin (center-based)
+            double offsetX = Math.Floor((width / 2.0)) - originX;
+            double offsetY = Math.Floor((height / 2.0)) - originY;
+
+            // Convert to MapleStory Worlds scale: 100px -> 1 unit, with rounding up to 2 decimal places
+            double worldX = RoundUpToTwoDecimalPlaces((itemX + 0) * 0.01);
+            double worldY = RoundUpToTwoDecimalPlaces((itemY + 0) * 0.01);
+
+            return ((itemX - originX) / 100.0, (itemY - originY) / 100.0);
+        }
+
+        private double RoundUpToTwoDecimalPlaces(double value)
+        {
+            return Math.Ceiling(value * 100) / 100.0;
         }
 
         /// <summary>
@@ -138,7 +184,7 @@ namespace MSWMapConverterLib
                         if (obj.HasChildNodes && objType != "connect")
                         {
 
-                            double x = 0, y = 0, dO = 0;
+                            int x = 0, y = 0, dO = 0;
                             string l0 = "", l1 = "", l2 = "";
 
                             foreach (XmlNode node in obj.ChildNodes)
@@ -146,10 +192,10 @@ namespace MSWMapConverterLib
                                 switch (node.Attributes["name"].Value)
                                 {
                                     case "x":
-                                        x = double.Parse(node.Attributes["value"].Value);
+                                        x = int.Parse(node.Attributes["value"].Value);
                                         break;
                                     case "y":
-                                        y = double.Parse(node.Attributes["value"].Value);
+                                        y = int.Parse(node.Attributes["value"].Value);
                                         break;
                                     case "l0":
                                         l0 = node.Attributes["value"].Value;
@@ -161,7 +207,7 @@ namespace MSWMapConverterLib
                                         l2 = node.Attributes["value"].Value;
                                         break;
                                     case "z":
-                                        dO = double.Parse(node.Attributes["value"].Value);
+                                        dO = int.Parse(node.Attributes["value"].Value);
                                         break;
                                 }
                             }
@@ -183,14 +229,14 @@ namespace MSWMapConverterLib
                                                 {
                                                     foreach (XmlNode canvas in l2Type.SelectNodes("canvas"))
                                                     {
-                                                        double canvasX = double.Parse(canvas["vector"].Attributes["x"].Value);
-                                                        double canvasY = double.Parse(canvas["vector"].Attributes["y"].Value);
+                                                        int canvasX = int.Parse(canvas["vector"].Attributes["x"].Value);
+                                                        int canvasY = int.Parse(canvas["vector"].Attributes["y"].Value);
 
                                                         x -= canvasX;
                                                         y -= canvasY;
 
-                                                        y += double.Parse(canvas.Attributes["height"].Value) / 2;
-                                                        x += double.Parse(canvas.Attributes["width"].Value) / 2;
+                                                        //y += int.Parse(canvas.Attributes["height"].Value) / 2;
+                                                        //x += int.Parse(canvas.Attributes["width"].Value) / 2;
 
                                                         //double vectorX = double.Parse(vector.Attributes["x"].Value);
                                                         //x -= vectorX;
@@ -213,8 +259,8 @@ namespace MSWMapConverterLib
                             if (resourceTile != null)
                             {
                                 var ruid = resourceTile.Ruid;
-                                var mswX = x / 100;
-                                var mswY = -y / 100;
+                                var mswX = (double)x / 100;
+                                var mswY = (double)-y / 100;
                                 var guid = Guid.NewGuid().ToString();
                                 var thisTileJson = templateTileObjectTxt.Replace("|guid|", guid)
                                                                        .Replace("|uniqueName|", $"obj{layerName}-{obj.Attributes["name"].Value}")
@@ -257,32 +303,40 @@ namespace MSWMapConverterLib
 
                     foreach (XmlNode tile in layer.SelectNodes("imgdir[2]/imgdir"))
                     {
-                        double x = 0, y = 0, no = 0, zM = 0;
+                        int x = 0, y = 0, no = 0, zM = 0;
                         string u = "";
 
                         int dO = int.Parse(tile.Attributes["name"].Value);
+
+                        double worldX = 0;
+                        double worldY = 0;
 
                         foreach (XmlNode node in tile.ChildNodes)
                         {
                             switch (node.Attributes["name"].Value)
                             {
                                 case "x":
-                                    x = double.Parse(node.Attributes["value"].Value);
+                                    x = int.Parse(node.Attributes["value"].Value);
                                     break;
                                 case "y":
-                                    y = double.Parse(node.Attributes["value"].Value);
+                                    y = int.Parse(node.Attributes["value"].Value);
                                     break;
                                 case "u":
                                     u = node.Attributes["value"].Value;
                                     break;
                                 case "no":
-                                    no = double.Parse(node.Attributes["value"].Value);
+                                    no = int.Parse(node.Attributes["value"].Value);
                                     break;
                                 case "zM":
-                                    zM = double.Parse(node.Attributes["value"].Value);
+                                    zM = int.Parse(node.Attributes["value"].Value);
                                     break;
                             }
                         }
+
+                        int width = 0;
+                        int height = 0;
+                        int canvasX = 0;
+                        int canvasY = 0;
 
                         foreach (XmlNode uType in tileSetInfo.SelectNodes("//imgdir[@name='" + u + "']"))
                         {
@@ -290,14 +344,12 @@ namespace MSWMapConverterLib
                             {
                                 if (no.ToString() == canvas.Attributes["name"].Value)
                                 {
-                                    double canvasX = double.Parse(canvas["vector"].Attributes["x"].Value);
-                                    double canvasY = double.Parse(canvas["vector"].Attributes["y"].Value);
+                                    Image img = Image.FromFile($@"{wzExtractPath}\Map.wz\Tile\{tileType}.img\{u}\{no}.png");
 
-                                    x -= canvasX;
-                                    y -= canvasY;
+                                    canvas.Attributes["width"].Value = img.Width.ToString();
+                                    canvas.Attributes["height"].Value = img.Height.ToString();
 
-                                    y += double.Parse(canvas.Attributes["height"].Value) / 2;
-                                    x += double.Parse(canvas.Attributes["width"].Value) / 2;
+                                    (worldX, worldY) = ConvertToWorldCoordinates(tile, canvas);
 
                                     break;
                                 }
@@ -310,8 +362,19 @@ namespace MSWMapConverterLib
                         if (resourceTile != null)
                         {
                             var ruid = resourceTile.Ruid;
-                            var mswX = x / 100;
-                            var mswY = -y / 100;
+                            var mswX = worldX;
+                            var mswY = -worldY;
+
+                            if (IsPrime(width))
+                            {
+                                //mswX += 0.01; // Adjust the X position if it's originally based on a prime
+                            }
+
+                            if (IsPrime(height))
+                            {
+                                //mswY -= 0.01; // Adjust the Y position if it's originally based on a prime
+                            }
+
                             var guid = Guid.NewGuid().ToString();
                             var thisTileJson = templateTileObjectTxt.Replace("|guid|", guid)
                                                                    .Replace("|uniqueName|", $"Tile{layerName}-{tile.Attributes["name"].Value}")
@@ -386,8 +449,8 @@ namespace MSWMapConverterLib
                                                         //x -= canvasX;
                                                         //y -= canvasY;
 
-                                                        y += double.Parse(canvas.Attributes["height"].Value) / 2;
-                                                        x += double.Parse(canvas.Attributes["width"].Value) / 2;
+                                                        //y += double.Parse(canvas.Attributes["height"].Value) / 2;
+                                                        //x += double.Parse(canvas.Attributes["width"].Value) / 2;
 
                                                         if (canvas["extended"] != null)
                                                         {
@@ -417,8 +480,8 @@ namespace MSWMapConverterLib
                             if (resourceTile != null)
                             {
                                 var ruid = resourceTile.Ruid;
-                                var mswX = x / 100;
-                                var mswY = -y / 100;
+                                var mswX = (double)x / 100;
+                                var mswY = (double)-y / 100;
                                 var guid = Guid.NewGuid().ToString();
                                 var thisTileJson = templateTileObjectTxt.Replace("|guid|", guid)
                                                                        .Replace("|uniqueName|", $"Connect{layerName}-{connect.Attributes["name"].Value}")

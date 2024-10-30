@@ -49,6 +49,10 @@
 					},
 					"ZRotation": 0.0,
 					"Enable": true
+				},
+				{
+					"@type": "script.AnchorSprite",
+					"Enable": true
 				}
 			],
 			"@version": 1
@@ -56,6 +60,7 @@
 	],
 	"miscs": [
 		"MOD.Core.SpriteRendererComponent",
-		"MOD.Core.TransformComponent"
+		"MOD.Core.TransformComponent",
+		"script.AnchorSprite"
 	]
 }
